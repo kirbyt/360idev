@@ -12,7 +12,7 @@
 
 @synthesize window;
 
-- (void)callWebServiceWith:(NSString *)username usingFormat:(NSString*)format {
+- (void)callWebServiceWithUsername:(NSString *)username usingFormat:(NSString*)format {
    NSString *encodedUsername = [username stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
    NSString *urlString = [NSString stringWithFormat:@"http://api.twitter.com/1/statuses/user_timeline/%@.%@", encodedUsername, format];
    NSURL *url = [NSURL URLWithString:urlString];
@@ -74,7 +74,7 @@
 	
    // Override point for customization after application launch
    
-   [self callWebServiceWith:@"kirbyt" usingFormat:@"xml"];
+   [self callWebServiceWithUsername:@"kirbyt" usingFormat:@"xml"];
 	
    [window makeKeyAndVisible];
    
