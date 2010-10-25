@@ -15,6 +15,8 @@
 		68EDB08C127620FC009190F7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68EDB08B127620FC009190F7 /* MainWindow.xib */; };
 		68EDB0991276218D009190F7 /* AppLayoutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68EDB0981276218D009190F7 /* AppLayoutView.xib */; };
 		68EDB09E12762206009190F7 /* AppLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EDB09D12762206009190F7 /* AppLayoutViewController.m */; };
+		68EDB0D11276278A009190F7 /* AppNavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68EDB0D01276278A009190F7 /* AppNavigationView.xib */; };
+		68EDB0D5127627F1009190F7 /* AppNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EDB0D4127627F1009190F7 /* AppNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,9 @@
 		68EDB0981276218D009190F7 /* AppLayoutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppLayoutView.xib; sourceTree = "<group>"; };
 		68EDB09C12762206009190F7 /* AppLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLayoutViewController.h; sourceTree = "<group>"; };
 		68EDB09D12762206009190F7 /* AppLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppLayoutViewController.m; sourceTree = "<group>"; };
+		68EDB0D01276278A009190F7 /* AppNavigationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppNavigationView.xib; sourceTree = "<group>"; };
+		68EDB0D3127627F1009190F7 /* AppNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppNavigationViewController.h; sourceTree = "<group>"; };
+		68EDB0D4127627F1009190F7 /* AppNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppNavigationViewController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CompositeViewsSample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CompositeViewsSample-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +115,7 @@
 			children = (
 				68EDB08B127620FC009190F7 /* MainWindow.xib */,
 				68EDB0981276218D009190F7 /* AppLayoutView.xib */,
+				68EDB0D01276278A009190F7 /* AppNavigationView.xib */,
 			);
 			path = xibs;
 			sourceTree = "<group>";
@@ -119,6 +125,8 @@
 			children = (
 				68EDB09C12762206009190F7 /* AppLayoutViewController.h */,
 				68EDB09D12762206009190F7 /* AppLayoutViewController.m */,
+				68EDB0D3127627F1009190F7 /* AppNavigationViewController.h */,
+				68EDB0D4127627F1009190F7 /* AppNavigationViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -174,6 +182,7 @@
 			files = (
 				68EDB08C127620FC009190F7 /* MainWindow.xib in Resources */,
 				68EDB0991276218D009190F7 /* AppLayoutView.xib in Resources */,
+				68EDB0D11276278A009190F7 /* AppNavigationView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +196,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* CompositeViewsSampleAppDelegate.m in Sources */,
 				68EDB09E12762206009190F7 /* AppLayoutViewController.m in Sources */,
+				68EDB0D5127627F1009190F7 /* AppNavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,10 +213,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CompositeViewsSample_Prefix.pch;
 				INFOPLIST_FILE = "CompositeViewsSample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PRODUCT_NAME = CompositeViewsSample;
 				SDKROOT = iphoneos4.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -218,10 +228,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CompositeViewsSample_Prefix.pch;
 				INFOPLIST_FILE = "CompositeViewsSample-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PRODUCT_NAME = CompositeViewsSample;
 				SDKROOT = iphoneos4.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
