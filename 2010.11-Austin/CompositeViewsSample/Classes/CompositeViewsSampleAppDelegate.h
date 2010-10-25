@@ -8,11 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CompositeViewsSampleAppDelegate : NSObject <UIApplicationDelegate> {
-    UIWindow *window;
+@interface CompositeViewsSampleAppDelegate : NSObject <UIApplicationDelegate> 
+{
+   UIWindow *_window;
+   UIViewController *_appLayoutViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet UIViewController *appLayoutViewController;
 
 @end
 
