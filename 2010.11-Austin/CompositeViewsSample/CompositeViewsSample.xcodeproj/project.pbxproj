@@ -13,8 +13,8 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		68EDB08C127620FC009190F7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68EDB08B127620FC009190F7 /* MainWindow.xib */; };
-		68EDB0991276218D009190F7 /* AppLayoutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68EDB0981276218D009190F7 /* AppLayoutView.xib */; };
-		68EDB09E12762206009190F7 /* AppLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EDB09D12762206009190F7 /* AppLayoutViewController.m */; };
+		68EDB0991276218D009190F7 /* RootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68EDB0981276218D009190F7 /* RootView.xib */; };
+		68EDB09E12762206009190F7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EDB09D12762206009190F7 /* RootViewController.m */; };
 		68EDB0D11276278A009190F7 /* AppNavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68EDB0D01276278A009190F7 /* AppNavigationView.xib */; };
 		68EDB0D5127627F1009190F7 /* AppNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EDB0D4127627F1009190F7 /* AppNavigationViewController.m */; };
 /* End PBXBuildFile section */
@@ -29,9 +29,9 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* CompositeViewsSample_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositeViewsSample_Prefix.pch; sourceTree = "<group>"; };
 		68EDB08B127620FC009190F7 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		68EDB0981276218D009190F7 /* AppLayoutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppLayoutView.xib; sourceTree = "<group>"; };
-		68EDB09C12762206009190F7 /* AppLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppLayoutViewController.h; sourceTree = "<group>"; };
-		68EDB09D12762206009190F7 /* AppLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppLayoutViewController.m; sourceTree = "<group>"; };
+		68EDB0981276218D009190F7 /* RootView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootView.xib; sourceTree = "<group>"; };
+		68EDB09C12762206009190F7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		68EDB09D12762206009190F7 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		68EDB0D01276278A009190F7 /* AppNavigationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppNavigationView.xib; sourceTree = "<group>"; };
 		68EDB0D3127627F1009190F7 /* AppNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppNavigationViewController.h; sourceTree = "<group>"; };
 		68EDB0D4127627F1009190F7 /* AppNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppNavigationViewController.m; sourceTree = "<group>"; };
@@ -114,7 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				68EDB08B127620FC009190F7 /* MainWindow.xib */,
-				68EDB0981276218D009190F7 /* AppLayoutView.xib */,
+				68EDB0981276218D009190F7 /* RootView.xib */,
 				68EDB0D01276278A009190F7 /* AppNavigationView.xib */,
 			);
 			path = xibs;
@@ -123,8 +123,8 @@
 		68EDB09B127621F3009190F7 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				68EDB09C12762206009190F7 /* AppLayoutViewController.h */,
-				68EDB09D12762206009190F7 /* AppLayoutViewController.m */,
+				68EDB09C12762206009190F7 /* RootViewController.h */,
+				68EDB09D12762206009190F7 /* RootViewController.m */,
 				68EDB0D3127627F1009190F7 /* AppNavigationViewController.h */,
 				68EDB0D4127627F1009190F7 /* AppNavigationViewController.m */,
 			);
@@ -181,7 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68EDB08C127620FC009190F7 /* MainWindow.xib in Resources */,
-				68EDB0991276218D009190F7 /* AppLayoutView.xib in Resources */,
+				68EDB0991276218D009190F7 /* RootView.xib in Resources */,
 				68EDB0D11276278A009190F7 /* AppNavigationView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,7 +195,7 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* CompositeViewsSampleAppDelegate.m in Sources */,
-				68EDB09E12762206009190F7 /* AppLayoutViewController.m in Sources */,
+				68EDB09E12762206009190F7 /* RootViewController.m in Sources */,
 				68EDB0D5127627F1009190F7 /* AppNavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

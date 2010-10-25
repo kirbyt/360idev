@@ -6,10 +6,10 @@
 //  Copyright 2010 White Peak Software Inc. All rights reserved.
 //
 
-#import "AppLayoutViewController.h"
+#import "RootViewController.h"
 
 
-@implementation AppLayoutViewController
+@implementation RootViewController
 
 @synthesize placeholderContent = _placeholderContent;
 @synthesize placeholderAppNavigation = _placeholderAppNavigation;
@@ -32,14 +32,16 @@
 
 - (void)addSubview:(UIView *)subview toPlaceholder:(UIView *)placeholder
 {
-   // Size the subview to fill the placeholder.
-   CGRect frame = [placeholder bounds];
-   [subview setFrame:frame];
-   // Replace the background color in the placeholder with the 
-   // color used in the subview.
-   [placeholder setBackgroundColor:[subview backgroundColor]];
-   
-   [placeholder addSubview:subview];
+   if (subview) {
+      // Size the subview to fill the placeholder.
+      CGRect frame = [placeholder bounds];
+      [subview setFrame:frame];
+      // Replace the background color in the placeholder with the 
+      // color used in the subview.
+      [placeholder setBackgroundColor:[subview backgroundColor]];
+      
+      [placeholder addSubview:subview];
+   }
 }
 
 - (void)viewDidLoad

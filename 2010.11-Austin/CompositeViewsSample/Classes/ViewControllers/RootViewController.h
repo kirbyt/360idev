@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface AppLayoutViewController : UIViewController 
+@interface RootViewController : UIViewController 
 {
    UIView *_placeholderContent;
    UIView *_placeholderAppNavigation;
