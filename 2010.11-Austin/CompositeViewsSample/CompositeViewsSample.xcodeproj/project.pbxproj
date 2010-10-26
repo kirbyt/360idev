@@ -17,6 +17,13 @@
 		68EDB09E12762206009190F7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EDB09D12762206009190F7 /* RootViewController.m */; };
 		68EDB0D11276278A009190F7 /* AppNavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68EDB0D01276278A009190F7 /* AppNavigationView.xib */; };
 		68EDB0D5127627F1009190F7 /* AppNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EDB0D4127627F1009190F7 /* AppNavigationViewController.m */; };
+		68EDB14F12765CDA009190F7 /* SpeakerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68EDB14E12765CDA009190F7 /* SpeakerView.xib */; };
+		68EDB15B12765E07009190F7 /* SpeakerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EDB15A12765E07009190F7 /* SpeakerViewController.m */; };
+		68EDB16112765EBE009190F7 /* Speakers.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EDB16012765EBE009190F7 /* Speakers.m */; };
+		68EDB16312765FE2009190F7 /* speakers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68EDB16212765FE2009190F7 /* speakers.plist */; };
+		68EDB16612766028009190F7 /* Kirbyturner.png in Resources */ = {isa = PBXBuildFile; fileRef = 68EDB16512766028009190F7 /* Kirbyturner.png */; };
+		68EDB24612766732009190F7 /* juliobarros1.png in Resources */ = {isa = PBXBuildFile; fileRef = 68EDB24512766732009190F7 /* juliobarros1.png */; };
+		68EDB26512766FFB009190F7 /* speaker-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 68EDB26412766FFB009190F7 /* speaker-background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +42,15 @@
 		68EDB0D01276278A009190F7 /* AppNavigationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AppNavigationView.xib; sourceTree = "<group>"; };
 		68EDB0D3127627F1009190F7 /* AppNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppNavigationViewController.h; sourceTree = "<group>"; };
 		68EDB0D4127627F1009190F7 /* AppNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppNavigationViewController.m; sourceTree = "<group>"; };
+		68EDB14E12765CDA009190F7 /* SpeakerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpeakerView.xib; sourceTree = "<group>"; };
+		68EDB15912765E07009190F7 /* SpeakerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakerViewController.h; sourceTree = "<group>"; };
+		68EDB15A12765E07009190F7 /* SpeakerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakerViewController.m; sourceTree = "<group>"; };
+		68EDB15F12765EBE009190F7 /* Speakers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Speakers.h; sourceTree = "<group>"; };
+		68EDB16012765EBE009190F7 /* Speakers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Speakers.m; sourceTree = "<group>"; };
+		68EDB16212765FE2009190F7 /* speakers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = speakers.plist; sourceTree = "<group>"; };
+		68EDB16512766028009190F7 /* Kirbyturner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kirbyturner.png; sourceTree = "<group>"; };
+		68EDB24512766732009190F7 /* juliobarros1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = juliobarros1.png; sourceTree = "<group>"; };
+		68EDB26412766FFB009190F7 /* speaker-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speaker-background.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CompositeViewsSample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CompositeViewsSample-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +73,7 @@
 			children = (
 				1D3623240D0F684500981E51 /* CompositeViewsSampleAppDelegate.h */,
 				1D3623250D0F684500981E51 /* CompositeViewsSampleAppDelegate.m */,
+				68EDB15E12765EB5009190F7 /* Models */,
 				68EDB09B127621F3009190F7 /* ViewControllers */,
 			);
 			path = Classes;
@@ -95,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				8D1107310486CEB800E47090 /* CompositeViewsSample-Info.plist */,
+				68EDB16212765FE2009190F7 /* speakers.plist */,
+				68EDB16412766028009190F7 /* images */,
 				68EDB08A127620FC009190F7 /* xibs */,
 			);
 			name = Resources;
@@ -116,6 +135,7 @@
 				68EDB08B127620FC009190F7 /* MainWindow.xib */,
 				68EDB0981276218D009190F7 /* RootView.xib */,
 				68EDB0D01276278A009190F7 /* AppNavigationView.xib */,
+				68EDB14E12765CDA009190F7 /* SpeakerView.xib */,
 			);
 			path = xibs;
 			sourceTree = "<group>";
@@ -127,8 +147,29 @@
 				68EDB09D12762206009190F7 /* RootViewController.m */,
 				68EDB0D3127627F1009190F7 /* AppNavigationViewController.h */,
 				68EDB0D4127627F1009190F7 /* AppNavigationViewController.m */,
+				68EDB15912765E07009190F7 /* SpeakerViewController.h */,
+				68EDB15A12765E07009190F7 /* SpeakerViewController.m */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		68EDB15E12765EB5009190F7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				68EDB15F12765EBE009190F7 /* Speakers.h */,
+				68EDB16012765EBE009190F7 /* Speakers.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		68EDB16412766028009190F7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				68EDB24512766732009190F7 /* juliobarros1.png */,
+				68EDB16512766028009190F7 /* Kirbyturner.png */,
+				68EDB26412766FFB009190F7 /* speaker-background.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +224,11 @@
 				68EDB08C127620FC009190F7 /* MainWindow.xib in Resources */,
 				68EDB0991276218D009190F7 /* RootView.xib in Resources */,
 				68EDB0D11276278A009190F7 /* AppNavigationView.xib in Resources */,
+				68EDB14F12765CDA009190F7 /* SpeakerView.xib in Resources */,
+				68EDB16312765FE2009190F7 /* speakers.plist in Resources */,
+				68EDB16612766028009190F7 /* Kirbyturner.png in Resources */,
+				68EDB24612766732009190F7 /* juliobarros1.png in Resources */,
+				68EDB26512766FFB009190F7 /* speaker-background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +243,8 @@
 				1D3623260D0F684500981E51 /* CompositeViewsSampleAppDelegate.m in Sources */,
 				68EDB09E12762206009190F7 /* RootViewController.m in Sources */,
 				68EDB0D5127627F1009190F7 /* AppNavigationViewController.m in Sources */,
+				68EDB15B12765E07009190F7 /* SpeakerViewController.m in Sources */,
+				68EDB16112765EBE009190F7 /* Speakers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

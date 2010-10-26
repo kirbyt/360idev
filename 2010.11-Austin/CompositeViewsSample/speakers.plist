@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image</key>
+		<string>Kirbyturner.png</string>
+		<key>bio</key>
+		<string>&lt;b&gt;Kirby Turner&lt;/b&gt; is an independent software developer from Salem, Massachusetts, and Chief Code Monkey for his company, White Peak Software Inc, which he founded in 2003. He has been programming professionally for more than 25 years and programming for fun even longer.</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>juliobarros1.png</string>
+		<key>bio</key>
+		<string>&lt;b&gt;Julio Barros&lt;/b&gt; is an iPhone developer with almost 20 years professional experience. Though not a UX designer by profession he strives to improve his skills in that area and is excited about sharing useful techniques and experiences.</string>
+	</dict>
+</array>
+</plist>
