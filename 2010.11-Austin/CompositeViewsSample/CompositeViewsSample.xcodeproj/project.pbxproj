@@ -12,6 +12,18 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		6816E5FD127EF64900E478BF /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6816E5F1127EF64900E478BF /* NSObject+SBJSON.m */; };
+		6816E5FE127EF64900E478BF /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 6816E5F3127EF64900E478BF /* NSString+SBJSON.m */; };
+		6816E5FF127EF64900E478BF /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6816E5F5127EF64900E478BF /* SBJsonBase.m */; };
+		6816E600127EF64900E478BF /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6816E5F7127EF64900E478BF /* SBJsonParser.m */; };
+		6816E601127EF64900E478BF /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6816E5F9127EF64900E478BF /* SBJsonStreamWriter.m */; };
+		6816E602127EF64900E478BF /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6816E5FB127EF64900E478BF /* SBJsonWriter.m */; };
+		6816E606127EF66C00E478BF /* SimpleTwitterClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6816E605127EF66C00E478BF /* SimpleTwitterClient.m */; };
+		6816E610127EFAF700E478BF /* TweetsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6816E60F127EFAF700E478BF /* TweetsView.xib */; };
+		6816E614127EFB1100E478BF /* TweetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6816E613127EFB1100E478BF /* TweetsViewController.m */; };
+		6816E7C3127F0FBE00E478BF /* UIImageView+KTImageDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 6816E7C2127F0FBE00E478BF /* UIImageView+KTImageDownload.m */; };
+		6816E7C7127F110500E478BF /* WebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6816E7C6127F110500E478BF /* WebImage.m */; };
+		6816E821127F3DDE00E478BF /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 6816E820127F3DDE00E478BF /* Placeholder.png */; };
 		68EDB08C127620FC009190F7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68EDB08B127620FC009190F7 /* MainWindow.xib */; };
 		68EDB0991276218D009190F7 /* RootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68EDB0981276218D009190F7 /* RootView.xib */; };
 		68EDB09E12762206009190F7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EDB09D12762206009190F7 /* RootViewController.m */; };
@@ -35,6 +47,30 @@
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* CompositeViewsSample_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompositeViewsSample_Prefix.pch; sourceTree = "<group>"; };
+		6816E5EF127EF64900E478BF /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		6816E5F0127EF64900E478BF /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		6816E5F1127EF64900E478BF /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		6816E5F2127EF64900E478BF /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		6816E5F3127EF64900E478BF /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		6816E5F4127EF64900E478BF /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		6816E5F5127EF64900E478BF /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		6816E5F6127EF64900E478BF /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		6816E5F7127EF64900E478BF /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		6816E5F8127EF64900E478BF /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		6816E5F9127EF64900E478BF /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		6816E5FA127EF64900E478BF /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		6816E5FB127EF64900E478BF /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		6816E5FC127EF64900E478BF /* SBProxyForJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBProxyForJson.h; sourceTree = "<group>"; };
+		6816E604127EF66C00E478BF /* SimpleTwitterClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTwitterClient.h; sourceTree = "<group>"; };
+		6816E605127EF66C00E478BF /* SimpleTwitterClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTwitterClient.m; sourceTree = "<group>"; };
+		6816E60F127EFAF700E478BF /* TweetsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TweetsView.xib; sourceTree = "<group>"; };
+		6816E612127EFB1100E478BF /* TweetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetsViewController.h; sourceTree = "<group>"; };
+		6816E613127EFB1100E478BF /* TweetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetsViewController.m; sourceTree = "<group>"; };
+		6816E7C1127F0FBE00E478BF /* UIImageView+KTImageDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+KTImageDownload.h"; sourceTree = "<group>"; };
+		6816E7C2127F0FBE00E478BF /* UIImageView+KTImageDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+KTImageDownload.m"; sourceTree = "<group>"; };
+		6816E7C5127F110500E478BF /* WebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebImage.h; sourceTree = "<group>"; };
+		6816E7C6127F110500E478BF /* WebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebImage.m; sourceTree = "<group>"; };
+		6816E820127F3DDE00E478BF /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
 		68EDB08B127620FC009190F7 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		68EDB0981276218D009190F7 /* RootView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootView.xib; sourceTree = "<group>"; };
 		68EDB09C12762206009190F7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -73,8 +109,11 @@
 			children = (
 				1D3623240D0F684500981E51 /* CompositeViewsSampleAppDelegate.h */,
 				1D3623250D0F684500981E51 /* CompositeViewsSampleAppDelegate.m */,
+				6816E7C1127F0FBE00E478BF /* UIImageView+KTImageDownload.h */,
+				6816E7C2127F0FBE00E478BF /* UIImageView+KTImageDownload.m */,
 				68EDB15E12765EB5009190F7 /* Models */,
 				68EDB09B127621F3009190F7 /* ViewControllers */,
+				6816E5EE127EF64900E478BF /* json-framework */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -129,6 +168,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6816E5EE127EF64900E478BF /* json-framework */ = {
+			isa = PBXGroup;
+			children = (
+				6816E5EF127EF64900E478BF /* JSON.h */,
+				6816E5F0127EF64900E478BF /* NSObject+SBJSON.h */,
+				6816E5F1127EF64900E478BF /* NSObject+SBJSON.m */,
+				6816E5F2127EF64900E478BF /* NSString+SBJSON.h */,
+				6816E5F3127EF64900E478BF /* NSString+SBJSON.m */,
+				6816E5F4127EF64900E478BF /* SBJsonBase.h */,
+				6816E5F5127EF64900E478BF /* SBJsonBase.m */,
+				6816E5F6127EF64900E478BF /* SBJsonParser.h */,
+				6816E5F7127EF64900E478BF /* SBJsonParser.m */,
+				6816E5F8127EF64900E478BF /* SBJsonStreamWriter.h */,
+				6816E5F9127EF64900E478BF /* SBJsonStreamWriter.m */,
+				6816E5FA127EF64900E478BF /* SBJsonWriter.h */,
+				6816E5FB127EF64900E478BF /* SBJsonWriter.m */,
+				6816E5FC127EF64900E478BF /* SBProxyForJson.h */,
+			);
+			path = "json-framework";
+			sourceTree = "<group>";
+		};
 		68EDB08A127620FC009190F7 /* xibs */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +196,7 @@
 				68EDB0981276218D009190F7 /* RootView.xib */,
 				68EDB0D01276278A009190F7 /* AppNavigationView.xib */,
 				68EDB14E12765CDA009190F7 /* SpeakerView.xib */,
+				6816E60F127EFAF700E478BF /* TweetsView.xib */,
 			);
 			path = xibs;
 			sourceTree = "<group>";
@@ -149,6 +210,8 @@
 				68EDB0D4127627F1009190F7 /* AppNavigationViewController.m */,
 				68EDB15912765E07009190F7 /* SpeakerViewController.h */,
 				68EDB15A12765E07009190F7 /* SpeakerViewController.m */,
+				6816E612127EFB1100E478BF /* TweetsViewController.h */,
+				6816E613127EFB1100E478BF /* TweetsViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -158,6 +221,10 @@
 			children = (
 				68EDB15F12765EBE009190F7 /* Speakers.h */,
 				68EDB16012765EBE009190F7 /* Speakers.m */,
+				6816E604127EF66C00E478BF /* SimpleTwitterClient.h */,
+				6816E605127EF66C00E478BF /* SimpleTwitterClient.m */,
+				6816E7C5127F110500E478BF /* WebImage.h */,
+				6816E7C6127F110500E478BF /* WebImage.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -165,6 +232,7 @@
 		68EDB16412766028009190F7 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				6816E820127F3DDE00E478BF /* Placeholder.png */,
 				68EDB24512766732009190F7 /* juliobarros1.png */,
 				68EDB16512766028009190F7 /* Kirbyturner.png */,
 				68EDB26412766FFB009190F7 /* speaker-background.png */,
@@ -229,6 +297,8 @@
 				68EDB16612766028009190F7 /* Kirbyturner.png in Resources */,
 				68EDB24612766732009190F7 /* juliobarros1.png in Resources */,
 				68EDB26512766FFB009190F7 /* speaker-background.png in Resources */,
+				6816E610127EFAF700E478BF /* TweetsView.xib in Resources */,
+				6816E821127F3DDE00E478BF /* Placeholder.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +315,16 @@
 				68EDB0D5127627F1009190F7 /* AppNavigationViewController.m in Sources */,
 				68EDB15B12765E07009190F7 /* SpeakerViewController.m in Sources */,
 				68EDB16112765EBE009190F7 /* Speakers.m in Sources */,
+				6816E5FD127EF64900E478BF /* NSObject+SBJSON.m in Sources */,
+				6816E5FE127EF64900E478BF /* NSString+SBJSON.m in Sources */,
+				6816E5FF127EF64900E478BF /* SBJsonBase.m in Sources */,
+				6816E600127EF64900E478BF /* SBJsonParser.m in Sources */,
+				6816E601127EF64900E478BF /* SBJsonStreamWriter.m in Sources */,
+				6816E602127EF64900E478BF /* SBJsonWriter.m in Sources */,
+				6816E606127EF66C00E478BF /* SimpleTwitterClient.m in Sources */,
+				6816E614127EFB1100E478BF /* TweetsViewController.m in Sources */,
+				6816E7C3127F0FBE00E478BF /* UIImageView+KTImageDownload.m in Sources */,
+				6816E7C7127F110500E478BF /* WebImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

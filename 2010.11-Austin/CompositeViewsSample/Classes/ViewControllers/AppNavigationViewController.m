@@ -7,6 +7,7 @@
 //
 
 #import "AppNavigationViewController.h"
+#import "RootViewController.h"
 
 enum ButtonTagValues {
    buttonHandsOn = 1,
@@ -18,6 +19,8 @@ enum ButtonTagValues {
 };
 
 @implementation AppNavigationViewController
+
+@synthesize rootViewController = _rootViewController;
 
 - (IBAction)itemTouched:(id)sender
 {
@@ -33,6 +36,7 @@ enum ButtonTagValues {
       case buttonFullSchedule:
          break;
       case buttonTwitter:
+         [_rootViewController showTwitterFeed];
          break;
    }
 }

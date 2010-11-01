@@ -18,6 +18,9 @@
    UIViewController *_contentViewController;
    UIViewController *_appNavigationViewController;
    UIViewController *_speakerViewController;
+   
+   NSMutableDictionary *_viewControllerQueue;
+   UIViewController *_currentContentViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIView *placeholderContent;
@@ -26,5 +29,7 @@
 @property (nonatomic, retain) IBOutlet UIViewController *contentViewController;
 @property (nonatomic, retain) IBOutlet UIViewController *appNavigationViewController;
 @property (nonatomic, retain) IBOutlet UIViewController *speakerViewController;
+
+- (void)showTwitterFeed;
 
 @end
