@@ -9,6 +9,7 @@
 #import "RootViewController.h"
 #import "TweetsViewController.h"
 #import "ScheduleViewController.h"
+#import "FullScheduleViewController.h"
 #import "UIViewController+KTCompositeView.h"
 
 
@@ -179,7 +180,7 @@
 
 - (void)showFullSchedule
 {
-   
+   [self displayViewForKey:@"FullSchedule" viewControllerClass:[FullScheduleViewController class]];
 }
 
 - (void)showTwitterFeed
