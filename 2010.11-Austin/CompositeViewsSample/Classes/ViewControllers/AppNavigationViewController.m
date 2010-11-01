@@ -26,14 +26,19 @@ enum ButtonTagValues {
 {
    switch ([sender tag]) {
       case buttonHandsOn:
+         [_rootViewController showScheduleForTrack:kScheduleHandsOn];
          break;
       case buttonBusiness:
+         [_rootViewController showScheduleForTrack:kScheduleBusiness];
          break;
       case buttonSights:
+         [_rootViewController showScheduleForTrack:kScheduleSightsAndSounds];
          break;
       case buttonDevTips:
+         [_rootViewController showScheduleForTrack:kScheduleDevTips];
          break;
       case buttonFullSchedule:
+         [_rootViewController showFullSchedule];
          break;
       case buttonTwitter:
          [_rootViewController showTwitterFeed];

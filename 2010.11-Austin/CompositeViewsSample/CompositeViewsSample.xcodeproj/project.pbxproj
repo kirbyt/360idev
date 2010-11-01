@@ -24,6 +24,9 @@
 		6816E7C3127F0FBE00E478BF /* UIImageView+KTImageDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 6816E7C2127F0FBE00E478BF /* UIImageView+KTImageDownload.m */; };
 		6816E7C7127F110500E478BF /* WebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6816E7C6127F110500E478BF /* WebImage.m */; };
 		6816E821127F3DDE00E478BF /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 6816E820127F3DDE00E478BF /* Placeholder.png */; };
+		68C8D49F127F5768000AE7DD /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C8D49E127F5768000AE7DD /* ScheduleViewController.m */; };
+		68C8D4A7127F5D3B000AE7DD /* UIViewController+KTCompositeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C8D4A6127F5D3B000AE7DD /* UIViewController+KTCompositeView.m */; };
+		68C8D4AB127F5EAE000AE7DD /* ScheduleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C8D4AA127F5EAE000AE7DD /* ScheduleView.xib */; };
 		68EDB08C127620FC009190F7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68EDB08B127620FC009190F7 /* MainWindow.xib */; };
 		68EDB0991276218D009190F7 /* RootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68EDB0981276218D009190F7 /* RootView.xib */; };
 		68EDB09E12762206009190F7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EDB09D12762206009190F7 /* RootViewController.m */; };
@@ -71,6 +74,11 @@
 		6816E7C5127F110500E478BF /* WebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebImage.h; sourceTree = "<group>"; };
 		6816E7C6127F110500E478BF /* WebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebImage.m; sourceTree = "<group>"; };
 		6816E820127F3DDE00E478BF /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
+		68C8D49D127F5768000AE7DD /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
+		68C8D49E127F5768000AE7DD /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		68C8D4A5127F5D3B000AE7DD /* UIViewController+KTCompositeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KTCompositeView.h"; sourceTree = "<group>"; };
+		68C8D4A6127F5D3B000AE7DD /* UIViewController+KTCompositeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KTCompositeView.m"; sourceTree = "<group>"; };
+		68C8D4AA127F5EAE000AE7DD /* ScheduleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleView.xib; sourceTree = "<group>"; };
 		68EDB08B127620FC009190F7 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		68EDB0981276218D009190F7 /* RootView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootView.xib; sourceTree = "<group>"; };
 		68EDB09C12762206009190F7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -111,6 +119,8 @@
 				1D3623250D0F684500981E51 /* CompositeViewsSampleAppDelegate.m */,
 				6816E7C1127F0FBE00E478BF /* UIImageView+KTImageDownload.h */,
 				6816E7C2127F0FBE00E478BF /* UIImageView+KTImageDownload.m */,
+				68C8D4A5127F5D3B000AE7DD /* UIViewController+KTCompositeView.h */,
+				68C8D4A6127F5D3B000AE7DD /* UIViewController+KTCompositeView.m */,
 				68EDB15E12765EB5009190F7 /* Models */,
 				68EDB09B127621F3009190F7 /* ViewControllers */,
 				6816E5EE127EF64900E478BF /* json-framework */,
@@ -197,6 +207,7 @@
 				68EDB0D01276278A009190F7 /* AppNavigationView.xib */,
 				68EDB14E12765CDA009190F7 /* SpeakerView.xib */,
 				6816E60F127EFAF700E478BF /* TweetsView.xib */,
+				68C8D4AA127F5EAE000AE7DD /* ScheduleView.xib */,
 			);
 			path = xibs;
 			sourceTree = "<group>";
@@ -212,6 +223,8 @@
 				68EDB15A12765E07009190F7 /* SpeakerViewController.m */,
 				6816E612127EFB1100E478BF /* TweetsViewController.h */,
 				6816E613127EFB1100E478BF /* TweetsViewController.m */,
+				68C8D49D127F5768000AE7DD /* ScheduleViewController.h */,
+				68C8D49E127F5768000AE7DD /* ScheduleViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -299,6 +312,7 @@
 				68EDB26512766FFB009190F7 /* speaker-background.png in Resources */,
 				6816E610127EFAF700E478BF /* TweetsView.xib in Resources */,
 				6816E821127F3DDE00E478BF /* Placeholder.png in Resources */,
+				68C8D4AB127F5EAE000AE7DD /* ScheduleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +339,8 @@
 				6816E614127EFB1100E478BF /* TweetsViewController.m in Sources */,
 				6816E7C3127F0FBE00E478BF /* UIImageView+KTImageDownload.m in Sources */,
 				6816E7C7127F110500E478BF /* WebImage.m in Sources */,
+				68C8D49F127F5768000AE7DD /* ScheduleViewController.m in Sources */,
+				68C8D4A7127F5D3B000AE7DD /* UIViewController+KTCompositeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +359,7 @@
 				INFOPLIST_FILE = "CompositeViewsSample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PRODUCT_NAME = CompositeViewsSample;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos4.2;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
@@ -358,7 +374,7 @@
 				INFOPLIST_FILE = "CompositeViewsSample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PRODUCT_NAME = CompositeViewsSample;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos4.2;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};

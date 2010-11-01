@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+enum Schedule {
+   kScheduleHandsOn = 1,
+   kScheduleBusiness,
+   kScheduleSightsAndSounds,
+   kScheduleDevTips,
+};
 
 @interface RootViewController : UIViewController 
 {
@@ -19,7 +25,7 @@
    UIViewController *_appNavigationViewController;
    UIViewController *_speakerViewController;
    
-   NSMutableDictionary *_viewControllerQueue;
+   NSMutableDictionary *_viewControllerCache;
    UIViewController *_currentContentViewController;
 }
 
@@ -30,6 +36,8 @@
 @property (nonatomic, retain) IBOutlet UIViewController *appNavigationViewController;
 @property (nonatomic, retain) IBOutlet UIViewController *speakerViewController;
 
+- (void)showScheduleForTrack:(NSInteger)track;
+- (void)showFullSchedule;
 - (void)showTwitterFeed;
 
 @end

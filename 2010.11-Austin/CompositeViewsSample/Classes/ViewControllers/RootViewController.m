@@ -8,6 +8,8 @@
 
 #import "RootViewController.h"
 #import "TweetsViewController.h"
+#import "ScheduleViewController.h"
+#import "UIViewController+KTCompositeView.h"
 
 
 @implementation RootViewController
@@ -28,14 +30,14 @@
    [_appNavigationViewController release], _appNavigationViewController = nil;
    [_speakerViewController release], _speakerViewController = nil;
    
-   [_viewControllerQueue release], _viewControllerQueue = nil;
+   [_viewControllerCache release], _viewControllerCache = nil;
    
    [super dealloc];
 }
 
 - (void)setup
 {
-   _viewControllerQueue = [[NSMutableDictionary alloc] init];
+   _viewControllerCache = [[NSMutableDictionary alloc] init];
 }
 
 - (id)initWithCoder:(NSCoder *)aDecoder
@@ -54,20 +56,6 @@
       [self setup];
    }
    return self;
-}
-
-- (void)addSubview:(UIView *)subview toPlaceholder:(UIView *)placeholder
-{
-   if (subview) {
-      // Size the subview to fill the placeholder.
-      CGRect frame = [placeholder bounds];
-      [subview setFrame:frame];
-      // Replace the background color in the placeholder with the 
-      // color used in the subview.
-      [placeholder setBackgroundColor:[subview backgroundColor]];
-      
-      [placeholder addSubview:subview];
-   }
 }
 
 - (void)viewDidLoad
@@ -144,10 +132,10 @@
 {
    [_currentContentViewController viewWillDisappear:YES];
    
-   UIViewController *vc = [_viewControllerQueue objectForKey:key];
+   UIViewController *vc = [_viewControllerCache objectForKey:key];
    if (vc == nil) {
       vc = [[class alloc] init];
-      [_viewControllerQueue setObject:vc forKey:key];
+      [_viewControllerCache setObject:vc forKey:key];
       [vc release];
    }
    [self slideInView:[vc view]];
@@ -160,14 +148,42 @@
 #pragma mark -
 #pragma mark View Actions
 
+- (void)showScheduleForTrack:(NSInteger)track
+{
+   // Retrieve data for the track.
+   NSArray *data = [NSArray array];
+   
+   NSString *cacheKey = nil;
+   switch (track) {
+      case kScheduleHandsOn:
+         cacheKey = @"HandsOn";
+         break;
+      case kScheduleBusiness:
+         cacheKey = @"Business";
+         break;
+      case kScheduleSightsAndSounds:
+         cacheKey = @"SightsAndSounds";
+         break;
+      case kScheduleDevTips:
+         cacheKey = @"DevTips";
+         break;
+   }
+   
+   [self displayViewForKey:cacheKey viewControllerClass:[ScheduleViewController class]];
+   
+   if ([_currentContentViewController isKindOfClass:[ScheduleViewController class]]) {
+      ScheduleViewController *vc = (ScheduleViewController *)_currentContentViewController;
+      [vc setData:data];
+   }
+}
+
+- (void)showFullSchedule
+{
+   
+}
 
 - (void)showTwitterFeed
 {
-//   TweetsViewController *vc = [[TweetsViewController alloc] initWithNibName:@"TweetsView" bundle:nil];
-//   TweetsViewController *vc = [[TweetsViewController alloc] init];
-//   [[vc view] setFrame:[_placeholderContent bounds]];
-//   [_placeholderContent addSubview:[vc view]];
-//   [vc release];
    [self displayViewForKey:@"TwitterFeed" viewControllerClass:[TweetsViewController class]];
 }
 
