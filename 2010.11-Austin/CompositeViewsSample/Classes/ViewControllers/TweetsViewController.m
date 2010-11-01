@@ -52,9 +52,15 @@
 - (void)viewDidLoad
 {
    [super viewDidLoad];
-   
+
+   [self refresh];
+}
+
+- (void)refresh
+{
    [_twitter retrieveTweetsForSearchTerm:@"360idev"];
 }
+
 
 #pragma mark -
 #pragma mark SimpleTwitterClientDelegate methods

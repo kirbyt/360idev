@@ -20,4 +20,6 @@
 
 @property (nonatomic, retain) IBOutlet UITableView *tableView;
 
+- (void)refresh;
+
 @end
