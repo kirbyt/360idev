@@ -29,6 +29,8 @@
 		68C7C3431280597F00ADEA11 /* scheduleHandsOn.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68C7C3421280597F00ADEA11 /* scheduleHandsOn.plist */; };
 		68C7C34712805BFD00ADEA11 /* TrackScheduleTimeSlotsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C7C34612805BFD00ADEA11 /* TrackScheduleTimeSlotsViewController.m */; };
 		68C7C34912805EA400ADEA11 /* TrackScheduleTimeSlotsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C7C34812805EA400ADEA11 /* TrackScheduleTimeSlotsView.xib */; };
+		68C7C3D11280654000ADEA11 /* TrackScheduleSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C7C3D01280654000ADEA11 /* TrackScheduleSessionViewController.m */; };
+		68C7C3D31280793B00ADEA11 /* TrackScheduleSessionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C7C3D21280793B00ADEA11 /* TrackScheduleSessionView.xib */; };
 		68C8D4AB127F5EAE000AE7DD /* ScheduleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C8D4AA127F5EAE000AE7DD /* ScheduleView.xib */; };
 		68C8D4CD127F62B0000AE7DD /* FullScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C8D4CC127F62B0000AE7DD /* FullScheduleViewController.m */; };
 		68C8D4CF127F63CC000AE7DD /* schedule.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 68C8D4CE127F63CC000AE7DD /* schedule.pdf */; };
@@ -88,6 +90,9 @@
 		68C7C34512805BFD00ADEA11 /* TrackScheduleTimeSlotsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackScheduleTimeSlotsViewController.h; sourceTree = "<group>"; };
 		68C7C34612805BFD00ADEA11 /* TrackScheduleTimeSlotsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackScheduleTimeSlotsViewController.m; sourceTree = "<group>"; };
 		68C7C34812805EA400ADEA11 /* TrackScheduleTimeSlotsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackScheduleTimeSlotsView.xib; sourceTree = "<group>"; };
+		68C7C3CF1280654000ADEA11 /* TrackScheduleSessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackScheduleSessionViewController.h; sourceTree = "<group>"; };
+		68C7C3D01280654000ADEA11 /* TrackScheduleSessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackScheduleSessionViewController.m; sourceTree = "<group>"; };
+		68C7C3D21280793B00ADEA11 /* TrackScheduleSessionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackScheduleSessionView.xib; sourceTree = "<group>"; };
 		68C8D4AA127F5EAE000AE7DD /* ScheduleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleView.xib; sourceTree = "<group>"; };
 		68C8D4CB127F62B0000AE7DD /* FullScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullScheduleViewController.h; sourceTree = "<group>"; };
 		68C8D4CC127F62B0000AE7DD /* FullScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullScheduleViewController.m; sourceTree = "<group>"; };
@@ -219,6 +224,8 @@
 				68C7C324128056E200ADEA11 /* TrackScheduleViewController.m */,
 				68C7C34512805BFD00ADEA11 /* TrackScheduleTimeSlotsViewController.h */,
 				68C7C34612805BFD00ADEA11 /* TrackScheduleTimeSlotsViewController.m */,
+				68C7C3CF1280654000ADEA11 /* TrackScheduleSessionViewController.h */,
+				68C7C3D01280654000ADEA11 /* TrackScheduleSessionViewController.m */,
 			);
 			path = TrackSchedules;
 			sourceTree = "<group>";
@@ -245,6 +252,7 @@
 				68C8D4D0127F63E2000AE7DD /* FullScheduleView.xib */,
 				68C8D4AA127F5EAE000AE7DD /* ScheduleView.xib */,
 				68C7C34812805EA400ADEA11 /* TrackScheduleTimeSlotsView.xib */,
+				68C7C3D21280793B00ADEA11 /* TrackScheduleSessionView.xib */,
 			);
 			path = xibs;
 			sourceTree = "<group>";
@@ -355,6 +363,7 @@
 				68C8D4D1127F63E2000AE7DD /* FullScheduleView.xib in Resources */,
 				68C7C3431280597F00ADEA11 /* scheduleHandsOn.plist in Resources */,
 				68C7C34912805EA400ADEA11 /* TrackScheduleTimeSlotsView.xib in Resources */,
+				68C7C3D31280793B00ADEA11 /* TrackScheduleSessionView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +394,7 @@
 				68C7C32B1280570B00ADEA11 /* UIImageView+KTImageDownload.m in Sources */,
 				68C7C32C1280570B00ADEA11 /* UIViewController+KTCompositeView.m in Sources */,
 				68C7C34712805BFD00ADEA11 /* TrackScheduleTimeSlotsViewController.m in Sources */,
+				68C7C3D11280654000ADEA11 /* TrackScheduleSessionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
