@@ -6,12 +6,12 @@
 //  Copyright 2010 White Peak Software Inc. All rights reserved.
 //
 
-#import "ScheduleViewController.h"
+#import "TrackScheduleViewController.h"
 #import "UIViewController+KTCompositeView.h"
 #import "TrackScheduleTimeSlotsViewController.h"
 
 
-@implementation ScheduleViewController
+@implementation TrackScheduleViewController
 
 @synthesize placeholderNavigation = _placeholderNavigation;
 @synthesize placeholderContent = _placeholderContent;

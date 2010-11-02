@@ -8,7 +8,7 @@
 
 #import "RootViewController.h"
 #import "TweetsViewController.h"
-#import "ScheduleViewController.h"
+#import "TrackScheduleViewController.h"
 #import "FullScheduleViewController.h"
 #import "UIViewController+KTCompositeView.h"
 
@@ -167,10 +167,10 @@
          break;
    }
    
-   [self displayViewForKey:cacheKey viewControllerClass:[ScheduleViewController class]];
+   [self displayViewForKey:cacheKey viewControllerClass:[TrackScheduleViewController class]];
    
-   if ([_currentContentViewController isKindOfClass:[ScheduleViewController class]]) {
-      ScheduleViewController *vc = (ScheduleViewController *)_currentContentViewController;
+   if ([_currentContentViewController isKindOfClass:[TrackScheduleViewController class]]) {
+      TrackScheduleViewController *vc = (TrackScheduleViewController *)_currentContentViewController;
 
       // Retrieve data for the track.
       NSString *path = [[NSBundle mainBundle] pathForResource:cacheKey ofType:@"plist"];

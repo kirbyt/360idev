@@ -23,7 +23,7 @@
 		6816E614127EFB1100E478BF /* TweetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6816E613127EFB1100E478BF /* TweetsViewController.m */; };
 		6816E7C7127F110500E478BF /* WebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6816E7C6127F110500E478BF /* WebImage.m */; };
 		6816E821127F3DDE00E478BF /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 6816E820127F3DDE00E478BF /* Placeholder.png */; };
-		68C7C325128056E200ADEA11 /* ScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C7C324128056E200ADEA11 /* ScheduleViewController.m */; };
+		68C7C325128056E200ADEA11 /* TrackScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C7C324128056E200ADEA11 /* TrackScheduleViewController.m */; };
 		68C7C32B1280570B00ADEA11 /* UIImageView+KTImageDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C7C3281280570B00ADEA11 /* UIImageView+KTImageDownload.m */; };
 		68C7C32C1280570B00ADEA11 /* UIViewController+KTCompositeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C7C32A1280570B00ADEA11 /* UIViewController+KTCompositeView.m */; };
 		68C7C3431280597F00ADEA11 /* scheduleHandsOn.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68C7C3421280597F00ADEA11 /* scheduleHandsOn.plist */; };
@@ -78,8 +78,8 @@
 		6816E7C5127F110500E478BF /* WebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebImage.h; sourceTree = "<group>"; };
 		6816E7C6127F110500E478BF /* WebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebImage.m; sourceTree = "<group>"; };
 		6816E820127F3DDE00E478BF /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
-		68C7C323128056E200ADEA11 /* ScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleViewController.h; sourceTree = "<group>"; };
-		68C7C324128056E200ADEA11 /* ScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleViewController.m; sourceTree = "<group>"; };
+		68C7C323128056E200ADEA11 /* TrackScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackScheduleViewController.h; sourceTree = "<group>"; };
+		68C7C324128056E200ADEA11 /* TrackScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackScheduleViewController.m; sourceTree = "<group>"; };
 		68C7C3271280570B00ADEA11 /* UIImageView+KTImageDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+KTImageDownload.h"; sourceTree = "<group>"; };
 		68C7C3281280570B00ADEA11 /* UIImageView+KTImageDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+KTImageDownload.m"; sourceTree = "<group>"; };
 		68C7C3291280570B00ADEA11 /* UIViewController+KTCompositeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KTCompositeView.h"; sourceTree = "<group>"; };
@@ -215,8 +215,8 @@
 		68C7C322128056E200ADEA11 /* TrackSchedules */ = {
 			isa = PBXGroup;
 			children = (
-				68C7C323128056E200ADEA11 /* ScheduleViewController.h */,
-				68C7C324128056E200ADEA11 /* ScheduleViewController.m */,
+				68C7C323128056E200ADEA11 /* TrackScheduleViewController.h */,
+				68C7C324128056E200ADEA11 /* TrackScheduleViewController.m */,
 				68C7C34512805BFD00ADEA11 /* TrackScheduleTimeSlotsViewController.h */,
 				68C7C34612805BFD00ADEA11 /* TrackScheduleTimeSlotsViewController.m */,
 			);
@@ -381,7 +381,7 @@
 				6816E614127EFB1100E478BF /* TweetsViewController.m in Sources */,
 				6816E7C7127F110500E478BF /* WebImage.m in Sources */,
 				68C8D4CD127F62B0000AE7DD /* FullScheduleViewController.m in Sources */,
-				68C7C325128056E200ADEA11 /* ScheduleViewController.m in Sources */,
+				68C7C325128056E200ADEA11 /* TrackScheduleViewController.m in Sources */,
 				68C7C32B1280570B00ADEA11 /* UIImageView+KTImageDownload.m in Sources */,
 				68C7C32C1280570B00ADEA11 /* UIViewController+KTCompositeView.m in Sources */,
 				68C7C34712805BFD00ADEA11 /* TrackScheduleTimeSlotsViewController.m in Sources */,

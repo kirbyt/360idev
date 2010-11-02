@@ -10,7 +10,7 @@
 
 @class TrackScheduleTimeSlotsViewController;
 
-@interface ScheduleViewController : UIViewController
+@interface TrackScheduleViewController : UIViewController
 {
    UIView *_placeholderNavigation;
    UIView *_placeholderContent;
