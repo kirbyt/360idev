@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackTitle</key>
+	<string>Hands-On</string>
+	<key>days</key>
+	<array>
+		<dict>
+			<key>day</key>
+			<string>Monday</string>
+			<key>sessions</key>
+			<array>
+				<dict>
+					<key>timeSlot</key>
+					<string>9:00a - 10:10a</string>
+					<key>speaker</key>
+					<string>David Whatley</string>
+					<key>title</key>
+					<string>Keynote: Funonomics: The Secrets of Engineering Fun</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>10:20a - 11:30a</string>
+					<key>speaker</key>
+					<string>Bob Koon</string>
+					<key>title</key>
+					<string>Keel Haul the Scurvy Dogs! (Some Piracy and Data-Snooping Countermeasures)</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>11:40a - 12:50p</string>
+					<key>speaker</key>
+					<string>Joe Pezzillo</string>
+					<key>title</key>
+					<string>Push It Over the Top (tentative title)</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>12:50p -1:30p</string>
+					<key>speaker</key>
+					<string>Michael Simmons</string>
+					<key>title</key>
+					<string>LUNCH: App Success: Why are you &quot;really&quot; doing this?</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>1:30p - 2:40p</string>
+					<key>speaker</key>
+					<string>Nathan Eror</string>
+					<key>title</key>
+					<string>iOS 4 event handling using UIGestureRecognizer (iOS 3.2 and 4.0 only)</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>4:10p - 5:20p</string>
+					<key>speaker</key>
+					<string>Mike Lee</string>
+					<key>title</key>
+					<string>General Session: Making Apps That Don&apos;t Suck</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>day</key>
+			<string>Tuesday</string>
+			<key>sessions</key>
+			<array>
+				<dict>
+					<key>timeSlot</key>
+					<string>9:00a - 10:10a</string>
+					<key>speaker</key>
+					<string>David Whatley</string>
+					<key>title</key>
+					<string>General Session</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>10:20a - 11:30a</string>
+					<key>speaker</key>
+					<string>Tim Burks</string>
+					<key>title</key>
+					<string>Get Your Head in the Clouds: Tools and Resources for Building Great Network Apps</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>11:40a - 12:50p</string>
+					<key>speaker</key>
+					<string>Brent Simmons</string>
+					<key>title</key>
+					<string>Epic Software Re-use</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>11:40a - 12:50p</string>
+					<key>speaker</key>
+					<string>Clint Tredway</string>
+					<key>title</key>
+					<string>Building iPad Applications with Titanium</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>12:50p -1:30p</string>
+					<key>speaker</key>
+					<string>Jessica Kahn</string>
+					<key>title</key>
+					<string>LUNCH: Game Center - Connecting your players</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>1:30p - 2:40p</string>
+					<key>speaker</key>
+					<string>Kirby Turner</string>
+					<key>title</key>
+					<string>The Fundamentals of iPad Programming</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>1:30p - 2:40p</string>
+					<key>speaker</key>
+					<string>Collin Donnell</string>
+					<key>title</key>
+					<string>Blocks and Grand Central Dispatch</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>2:50p - 4:00p</string>
+					<key>speaker</key>
+					<string>Jim McKeeth</string>
+					<key>title</key>
+					<string>Advance Data Infrastructure</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>2:50p - 4:00p</string>
+					<key>speaker</key>
+					<string>Danton Chin</string>
+					<key>title</key>
+					<string>Concurrency witih GCD and Blocks</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>4:10p - 5:20p</string>
+					<key>speaker</key>
+					<string>Ken Yarmosh</string>
+					<key>title</key>
+					<string>Think First, Code Later (Panel)</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>day</key>
+			<string>Wednesday</string>
+			<key>sessions</key>
+			<array>
+				<dict>
+					<key>timeSlot</key>
+					<string>10:00a - 11:10a</string>
+					<key>speaker</key>
+					<string>Community</string>
+					<key>title</key>
+					<string>Community General Session</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>11:20a - 12:30p</string>
+					<key>speaker</key>
+					<string>Matt Martel</string>
+					<key>title</key>
+					<string>Using an Ad Mediation Layer (AdWhirl or Mobclix)</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>11:20a - 12:30p</string>
+					<key>speaker</key>
+					<string>Nathan Eror</string>
+					<key>title</key>
+					<string>Practical UIKit: Creating Custom Views and Components</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>12:30p - 1:30p</string>
+					<key>speaker</key>
+					<string></string>
+					<key>title</key>
+					<string>LUNCH</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>1:30p - 2:40p</string>
+					<key>speaker</key>
+					<string>Jiva DeVoe</string>
+					<key>title</key>
+					<string>Classes - Better Living Through Customization</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>1:30p - 2:40p</string>
+					<key>speaker</key>
+					<string>Jim McKeeth</string>
+					<key>title</key>
+					<string>Multi-Tier with RemObject&apos;s Data Abstract</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>2:50p - 4:00p</string>
+					<key>speaker</key>
+					<string>Jen Harvey</string>
+					<key>title</key>
+					<string>The Reluctant Sysadmin: Managing the Server-side of a Client/Server iPhone App</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>2:50p - 4:00p</string>
+					<key>speaker</key>
+					<string>Tom Harrington</string>
+					<key>title</key>
+					<string>Core Data Performance Tuning</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>4:10p - 5:20p</string>
+					<key>speaker</key>
+					<string>Jay Freeman</string>
+					<key>title</key>
+					<string>Panel / General Session</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

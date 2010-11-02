@@ -24,6 +24,8 @@
 		6816E7C7127F110500E478BF /* WebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6816E7C6127F110500E478BF /* WebImage.m */; };
 		6816E821127F3DDE00E478BF /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 6816E820127F3DDE00E478BF /* Placeholder.png */; };
 		6820F8991280AAE200DEF80A /* scheduleBusiness.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6820F8981280AAE200DEF80A /* scheduleBusiness.plist */; };
+		6820F8CD1280B25300DEF80A /* scheduleSightsAndSounds.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6820F8CC1280B25300DEF80A /* scheduleSightsAndSounds.plist */; };
+		6820F8DC1280B4E600DEF80A /* scheduleDevTips.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6820F8DB1280B4E600DEF80A /* scheduleDevTips.plist */; };
 		68C7C325128056E200ADEA11 /* TrackScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C7C324128056E200ADEA11 /* TrackScheduleViewController.m */; };
 		68C7C32B1280570B00ADEA11 /* UIImageView+KTImageDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C7C3281280570B00ADEA11 /* UIImageView+KTImageDownload.m */; };
 		68C7C32C1280570B00ADEA11 /* UIViewController+KTCompositeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C7C32A1280570B00ADEA11 /* UIViewController+KTCompositeView.m */; };
@@ -84,6 +86,8 @@
 		6816E7C6127F110500E478BF /* WebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebImage.m; sourceTree = "<group>"; };
 		6816E820127F3DDE00E478BF /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
 		6820F8981280AAE200DEF80A /* scheduleBusiness.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scheduleBusiness.plist; sourceTree = "<group>"; };
+		6820F8CC1280B25300DEF80A /* scheduleSightsAndSounds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scheduleSightsAndSounds.plist; sourceTree = "<group>"; };
+		6820F8DB1280B4E600DEF80A /* scheduleDevTips.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = scheduleDevTips.plist; sourceTree = "<group>"; };
 		68C7C323128056E200ADEA11 /* TrackScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackScheduleViewController.h; sourceTree = "<group>"; };
 		68C7C324128056E200ADEA11 /* TrackScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackScheduleViewController.m; sourceTree = "<group>"; };
 		68C7C3271280570B00ADEA11 /* UIImageView+KTImageDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+KTImageDownload.h"; sourceTree = "<group>"; };
@@ -190,6 +194,8 @@
 				68C8D4CE127F63CC000AE7DD /* schedule.pdf */,
 				68C7C3421280597F00ADEA11 /* scheduleHandsOn.plist */,
 				6820F8981280AAE200DEF80A /* scheduleBusiness.plist */,
+				6820F8CC1280B25300DEF80A /* scheduleSightsAndSounds.plist */,
+				6820F8DB1280B4E600DEF80A /* scheduleDevTips.plist */,
 				68EDB16412766028009190F7 /* images */,
 				68EDB08A127620FC009190F7 /* xibs */,
 			);
@@ -377,6 +383,8 @@
 				68C7C3D31280793B00ADEA11 /* TrackScheduleSessionView.xib in Resources */,
 				68C7C4A91280876400ADEA11 /* austin.jpg in Resources */,
 				6820F8991280AAE200DEF80A /* scheduleBusiness.plist in Resources */,
+				6820F8CD1280B25300DEF80A /* scheduleSightsAndSounds.plist in Resources */,
+				6820F8DC1280B4E600DEF80A /* scheduleDevTips.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

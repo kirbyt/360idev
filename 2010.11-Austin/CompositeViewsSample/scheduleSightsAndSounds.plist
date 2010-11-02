@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackTitle</key>
+	<string>Sights, Sounds, and Interactions</string>
+	<key>days</key>
+	<array>
+		<dict>
+			<key>day</key>
+			<string>Monday</string>
+			<key>sessions</key>
+			<array>
+				<dict>
+					<key>timeSlot</key>
+					<string>9:00a - 10:10a</string>
+					<key>speaker</key>
+					<string>David Whatley</string>
+					<key>title</key>
+					<string>Keynote: Funonomics: The Secrets of Engineering Fun</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>10:20a - 11:30a</string>
+					<key>speaker</key>
+					<string>Tom Harrington</string>
+					<key>title</key>
+					<string>Live streaming with Core Audio</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>10:20a - 11:30a</string>
+					<key>speaker</key>
+					<string>Thomas Frauenhofer</string>
+					<key>title</key>
+					<string>Introduction to Cocos2D for iPhone</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>11:40a - 12:50p</string>
+					<key>speaker</key>
+					<string>Lindsay Giachetti</string>
+					<key>title</key>
+					<string>Apps on a Wire: User Experience Wireframe Design for iPhone and iPad apps</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>12:50p -1:30p</string>
+					<key>speaker</key>
+					<string>Michael Simmons</string>
+					<key>title</key>
+					<string>LUNCH: App Success: Why are you &quot;really&quot; doing this?</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>1:30p - 2:40p</string>
+					<key>speaker</key>
+					<string>Kyle Richter</string>
+					<key>title</key>
+					<string>Game Center, Beyond Games</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>2:50p - 4:00p</string>
+					<key>speaker</key>
+					<string>Vincent Verville</string>
+					<key>title</key>
+					<string>Practical Core Graphics for iOS 4</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>4:10p - 5:20p</string>
+					<key>speaker</key>
+					<string>Mike Lee</string>
+					<key>title</key>
+					<string>General Session: Making Apps That Don&apos;t Suck</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>day</key>
+			<string>Tuesday</string>
+			<key>sessions</key>
+			<array>
+				<dict>
+					<key>timeSlot</key>
+					<string>9:00a - 10:10a</string>
+					<key>speaker</key>
+					<string>David Whatley</string>
+					<key>title</key>
+					<string>General Session</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>10:20a - 11:30a</string>
+					<key>speaker</key>
+					<string>Julio Barros</string>
+					<key>title</key>
+					<string>User experience (UX) design for the indie dev</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>10:20a - 11:30a</string>
+					<key>speaker</key>
+					<string>Jiva DeVoe</string>
+					<key>title</key>
+					<string>Building Elegant Software</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>11:40a - 12:50p</string>
+					<key>speaker</key>
+					<string>Jen Gordon</string>
+					<key>title</key>
+					<string>Designing the Details - What makes some apps stand out above the rest?</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>12:50p -1:30p</string>
+					<key>speaker</key>
+					<string>Jessica Kahn</string>
+					<key>title</key>
+					<string>LUNCH: Game Center - Connecting your players</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>1:30p - 2:40p</string>
+					<key>speaker</key>
+					<string>Serban Porumbescu</string>
+					<key>title</key>
+					<string>Visualizing Music with FMOD and OpenGL</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>2:50p - 4:00p</string>
+					<key>speaker</key>
+					<string>Josh Clark</string>
+					<key>title</key>
+					<string>Designing for Touch: Mobile Design in Industrial Design</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>4:10p - 5:20p</string>
+					<key>speaker</key>
+					<string>Ken Yarmosh</string>
+					<key>title</key>
+					<string>Think First, Code Later (Panel)</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>day</key>
+			<string>Wednesday</string>
+			<key>sessions</key>
+			<array>
+				<dict>
+					<key>timeSlot</key>
+					<string>10:00a - 11:10a</string>
+					<key>speaker</key>
+					<string>Community</string>
+					<key>title</key>
+					<string>Community General Session</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>11:20a - 12:30p</string>
+					<key>speaker</key>
+					<string>Brandon Alexander</string>
+					<key>title</key>
+					<string>Making Interface Builder work for you</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>12:30p - 1:30p</string>
+					<key>speaker</key>
+					<string></string>
+					<key>title</key>
+					<string>LUNCH</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>1:30p - 2:40p</string>
+					<key>speaker</key>
+					<string>Josh Clark</string>
+					<key>title</key>
+					<string>iPad Design Headaches: Take Two Tablets, Call Me in the Morning</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>2:50p - 4:00p</string>
+					<key>speaker</key>
+					<string>Dave Wiskus</string>
+					<key>title</key>
+					<string>Design for Developers</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>4:10p - 5:20p</string>
+					<key>speaker</key>
+					<string>Jay Freeman</string>
+					<key>title</key>
+					<string>Panel / General Session</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
