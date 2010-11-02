@@ -8,20 +8,23 @@
 
 #import <UIKit/UIKit.h>
 
+@class TrackScheduleTimeSlotsViewController;
 
 @interface ScheduleViewController : UIViewController
 {
    UIView *_placeholderNavigation;
    UIView *_placeholderContent;
    UIViewController *_contentViewController;
-   UIViewController *_navigationViewController;
-   NSArray *_data;
+   TrackScheduleTimeSlotsViewController *_navigationViewController;
+   NSDictionary *_data;
 }
 
 @property (nonatomic, retain) IBOutlet UIView *placeholderNavigation;
 @property (nonatomic, retain) IBOutlet UIView *placeholderContent;
 @property (nonatomic, retain) IBOutlet UIViewController *contentViewController;
-@property (nonatomic, retain) IBOutlet UIViewController *navigationViewController;
-@property (nonatomic, retain) NSArray *data;
+@property (nonatomic, retain) IBOutlet TrackScheduleTimeSlotsViewController *navigationViewController;
+
+
+- (void)setData:(NSDictionary *)data;
 
 @end

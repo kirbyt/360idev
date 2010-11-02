@@ -151,13 +151,10 @@
 
 - (void)showScheduleForTrack:(NSInteger)track
 {
-   // Retrieve data for the track.
-   NSArray *data = [NSArray array];
-   
    NSString *cacheKey = nil;
    switch (track) {
       case kScheduleHandsOn:
-         cacheKey = @"HandsOn";
+         cacheKey = @"scheduleHandsOn";
          break;
       case kScheduleBusiness:
          cacheKey = @"Business";
@@ -174,6 +171,10 @@
    
    if ([_currentContentViewController isKindOfClass:[ScheduleViewController class]]) {
       ScheduleViewController *vc = (ScheduleViewController *)_currentContentViewController;
+
+      // Retrieve data for the track.
+      NSString *path = [[NSBundle mainBundle] pathForResource:cacheKey ofType:@"plist"];
+      NSDictionary *data = [NSDictionary dictionaryWithContentsOfFile:path];
       [vc setData:data];
    }
 }

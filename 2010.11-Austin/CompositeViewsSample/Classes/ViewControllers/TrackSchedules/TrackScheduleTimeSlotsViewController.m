@@ -51,7 +51,8 @@
 
 - (NSInteger)tableView:(UITableView *)table numberOfRowsInSection:(NSInteger)section
 {
-   return [_data count];
+   NSArray *sessions = [_data objectForKey:@"sessions"];
+   return [sessions count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath

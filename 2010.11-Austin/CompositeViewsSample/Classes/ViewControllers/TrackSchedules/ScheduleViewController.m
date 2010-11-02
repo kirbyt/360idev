@@ -8,6 +8,7 @@
 
 #import "ScheduleViewController.h"
 #import "UIViewController+KTCompositeView.h"
+#import "TrackScheduleTimeSlotsViewController.h"
 
 
 @implementation ScheduleViewController
@@ -16,7 +17,6 @@
 @synthesize placeholderContent = _placeholderContent;
 @synthesize contentViewController = _contentViewController;
 @synthesize navigationViewController = _navigationViewController;
-@synthesize data = _data;
 
 - (void)dealloc
 {
@@ -55,6 +55,13 @@
    
    [self addSubview:[_contentViewController view] toPlaceholder:_placeholderContent];
    [self addSubview:[_navigationViewController view] toPlaceholder:_placeholderNavigation];
+}
+
+- (void)setData:(NSDictionary *)data
+{
+   _data = [data retain];
+   
+   [_navigationViewController setData:_data];
 }
 
 
