@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>trackTitle</key>
+	<string>Hands-On</string>
+	<key>days</key>
+	<array>
+		<dict>
+			<key>day</key>
+			<string>Monday</string>
+			<key>sessions</key>
+			<array>
+				<dict>
+					<key>timeSlot</key>
+					<string>9:00a - 10:10a</string>
+					<key>speaker</key>
+					<string>David Whatley</string>
+					<key>title</key>
+					<string>Keynote: Funonomics: The Secrets of Engineering Fun</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>10:20a - 11:30a</string>
+					<key>speaker</key>
+					<string>Justin Williams</string>
+					<key>title</key>
+					<string>Punching Out:Selling Your iPhone Apps To Someone Else</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>11:40a - 12:50p</string>
+					<key>speaker</key>
+					<string>Steven Hugg</string>
+					<key>title</key>
+					<string>Viral Marketing By The Numbers</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>12:50p -1:30p</string>
+					<key>speaker</key>
+					<string>Michael Simmons</string>
+					<key>title</key>
+					<string>LUNCH: App Success: Why are you &quot;really&quot; doing this?</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>1:30p - 2:40p</string>
+					<key>speaker</key>
+					<string>Vadim Dagman</string>
+					<key>title</key>
+					<string>It&apos;s more fun to learn from your successes than from your mistakes</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>2:50p - 4:00p</string>
+					<key>speaker</key>
+					<string>Noel Llopis</string>
+					<key>title</key>
+					<string>The Power of In-App Purchases</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>4:10p - 5:20p</string>
+					<key>speaker</key>
+					<string>Mike Lee</string>
+					<key>title</key>
+					<string>General Session: Making Apps That Don&apos;t Suck</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>day</key>
+			<string>Tuesday</string>
+			<key>sessions</key>
+			<array>
+				<dict>
+					<key>timeSlot</key>
+					<string>9:00a - 10:10a</string>
+					<key>speaker</key>
+					<string>David Whatley</string>
+					<key>title</key>
+					<string>General Session</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>10:20a - 11:30a</string>
+					<key>speaker</key>
+					<string>Joe Pezzillo</string>
+					<key>title</key>
+					<string>Gutenberg X Ford = Appitalism</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>11:40a - 12:50p</string>
+					<key>speaker</key>
+					<string>Michael Prichard</string>
+					<key>title</key>
+					<string>Optimizing Mobile Web Optimization</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>12:50p -1:30p</string>
+					<key>speaker</key>
+					<string>Jessica Kahn</string>
+					<key>title</key>
+					<string>LUNCH: Game Center - Connecting your players</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>1:30p - 2:40p</string>
+					<key>speaker</key>
+					<string>Brian Robbins</string>
+					<key>title</key>
+					<string>Building a Non-Hit Driven Business, 6 months later</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>2:50p - 4:00p</string>
+					<key>speaker</key>
+					<string>Mike Schneider</string>
+					<key>title</key>
+					<string>Legal Issues in iPhone Development</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>4:10p - 5:20p</string>
+					<key>speaker</key>
+					<string>Ken Yarmosh</string>
+					<key>title</key>
+					<string>Think First, Code Later (Panel)</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>day</key>
+			<string>Wednesday</string>
+			<key>sessions</key>
+			<array>
+				<dict>
+					<key>timeSlot</key>
+					<string>10:00a - 11:10a</string>
+					<key>speaker</key>
+					<string>Community</string>
+					<key>title</key>
+					<string>Community General Session</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>11:20a - 12:30p</string>
+					<key>speaker</key>
+					<string>Dan Burcaw</string>
+					<key>title</key>
+					<string>Insanity Now, Serenity Later: Developing Apps for Professional Sports</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>2:50p - 4:00p</string>
+					<key>speaker</key>
+					<string>Hendrik Kueck</string>
+					<key>title</key>
+					<string>Effectively using videos to explain and market your app</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>4:10p - 5:20p</string>
+					<key>speaker</key>
+					<string>Jay Freeman</string>
+					<key>title</key>
+					<string>Panel / General Session</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -157,13 +157,13 @@
          cacheKey = @"scheduleHandsOn";
          break;
       case kScheduleBusiness:
-         cacheKey = @"Business";
+         cacheKey = @"scheduleBusiness";
          break;
       case kScheduleSightsAndSounds:
-         cacheKey = @"SightsAndSounds";
+         cacheKey = @"scheduleSightsAndSounds";
          break;
       case kScheduleDevTips:
-         cacheKey = @"DevTips";
+         cacheKey = @"scheduleDevTips";
          break;
    }
    

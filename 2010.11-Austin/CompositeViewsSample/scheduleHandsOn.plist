@@ -2,107 +2,114 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-   <key>trackTitle</key>
-   <string>Hands-On</string>
-   <key>sessions</key>
-   <array>
-	<dict>
-		<key>timeSlot</key>
-		<string>9:00a - 12:00p</string>
-		<key>speaker</key>
-		<string>InMobi</string>
-		<key>title</key>
-		<string>The Economics of Your Ad Supported Application Business</string>
-		<key>level</key>
-		<string></string>
-		<key>description</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>timeSlot</key>
-		<string>9:00a - 12:00p</string>
-		<key>speaker</key>
-		<string>Titanium</string>
-		<key>title</key>
-		<string>Casual game dev with Titanium</string>
-		<key>level</key>
-		<string></string>
-		<key>description</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>timeSlot</key>
-		<string>9:00a - 12:00p</string>
-		<key>speaker</key>
-		<string>Kendall Gelner</string>
-		<key>title</key>
-		<string>Advanced Debugging</string>
-		<key>level</key>
-		<string></string>
-		<key>description</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>timeSlot</key>
-		<string>9:00a - 5:00p</string>
-		<key>speaker</key>
-		<string>Ray Wenderlich</string>
-		<key>title</key>
-		<string>iPhone 101 Hands-On</string>
-		<key>level</key>
-		<string></string>
-		<key>description</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>timeSlot</key>
-		<string>1:00p - 5:00p</string>
-		<key>speaker</key>
-		<string>Saul Mora
+	<key>trackTitle</key>
+	<string>Hands-On</string>
+	<key>days</key>
+	<array>
+		<dict>
+			<key>day</key>
+			<string>Sunday</string>
+			<key>sessions</key>
+			<array>
+				<dict>
+					<key>timeSlot</key>
+					<string>9:00a - 12:00p</string>
+					<key>speaker</key>
+					<string>InMobi</string>
+					<key>title</key>
+					<string>The Economics of Your Ad Supported Application Business</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>9:00a - 12:00p</string>
+					<key>speaker</key>
+					<string>Titanium</string>
+					<key>title</key>
+					<string>Casual game dev with Titanium</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>9:00a - 12:00p</string>
+					<key>speaker</key>
+					<string>Kendall Gelner</string>
+					<key>title</key>
+					<string>Advanced Debugging</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>9:00a - 5:00p</string>
+					<key>speaker</key>
+					<string>Ray Wenderlich</string>
+					<key>title</key>
+					<string>iPhone 101 Hands-On</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>1:00p - 5:00p</string>
+					<key>speaker</key>
+					<string>Saul Mora
 Saul Mora</string>
-		<key>title</key>
-		<string>Workshop: Unit Testing that doesn&apos;t Suck, the Workshop</string>
-		<key>level</key>
-		<string></string>
-		<key>description</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>timeSlot</key>
-		<string>1:00p - 5:00p</string>
-		<key>speaker</key>
-		<string>InMobi</string>
-		<key>title</key>
-		<string>The Economics of Your Ad Supported Application Business</string>
-		<key>level</key>
-		<string></string>
-		<key>description</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>timeSlot</key>
-		<string>1:00p - 5:00p</string>
-		<key>speaker</key>
-		<string>Titanium</string>
-		<key>title</key>
-		<string>Casual game dev with Titanium</string>
-		<key>level</key>
-		<string></string>
-		<key>description</key>
-		<string></string>
-	</dict>
-	<dict>
-		<key>timeSlot</key>
-		<string>1:00p - 5:00p</string>
-		<key>speaker</key>
-		<string>Kendall Gelner</string>
-		<key>title</key>
-		<string>Xcode Customization</string>
-		<key>level</key>
-		<string></string>
-		<key>description</key>
-		<string></string>
-	</dict>
-   </array>
+					<key>title</key>
+					<string>Workshop: Unit Testing that doesn&apos;t Suck, the Workshop</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>1:00p - 5:00p</string>
+					<key>speaker</key>
+					<string>InMobi</string>
+					<key>title</key>
+					<string>The Economics of Your Ad Supported Application Business</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>1:00p - 5:00p</string>
+					<key>speaker</key>
+					<string>Titanium</string>
+					<key>title</key>
+					<string>Casual game dev with Titanium</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>timeSlot</key>
+					<string>1:00p - 5:00p</string>
+					<key>speaker</key>
+					<string>Kendall Gelner</string>
+					<key>title</key>
+					<string>Xcode Customization</string>
+					<key>level</key>
+					<string></string>
+					<key>description</key>
+					<string></string>
+				</dict>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>

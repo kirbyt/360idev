@@ -9,7 +9,9 @@
 extern NSString * const kSpeakerImage;
 extern NSString * const kSpeakerBio;
 extern NSString * const kTrackTitle;
-extern NSString * const kTrackSessions;
+extern NSString * const kTrackDays;
+extern NSString * const kDaysDay;
+extern NSString * const kDaysSessions;
 extern NSString * const kSessionTimeSlot;
 extern NSString * const kSessionTitle;
 extern NSString * const kSessionSpeakerName;

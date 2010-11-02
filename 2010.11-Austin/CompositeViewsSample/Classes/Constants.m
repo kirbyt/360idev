@@ -12,7 +12,9 @@
 NSString * const kSpeakerImage = @"image";
 NSString * const kSpeakerBio = @"bio";
 NSString * const kTrackTitle = @"trackTitle";
-NSString * const kTrackSessions = @"sessions";
+NSString * const kTrackDays = @"days";
+NSString * const kDaysDay = @"day";
+NSString * const kDaysSessions = @"sessions";
 NSString * const kSessionTimeSlot = @"timeSlot";
 NSString * const kSessionTitle = @"title";
 NSString * const kSessionSpeakerName = @"speaker";

@@ -53,8 +53,24 @@
 
 - (NSInteger)tableView:(UITableView *)table numberOfRowsInSection:(NSInteger)section
 {
-   NSArray *sessions = [_data objectForKey:kTrackSessions];
+   NSArray *days = [_data objectForKey:kTrackDays];
+   NSDictionary *day = [days objectAtIndex:section];
+   NSArray *sessions = [day objectForKey:kDaysSessions];
    return [sessions count];
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+   NSArray *days = [_data objectForKey:kTrackDays];
+   return [days count];
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+   NSArray *days = [_data objectForKey:kTrackDays];
+   NSDictionary *day = [days objectAtIndex:section];
+   NSString *title = [day objectForKey:kDaysDay];
+   return title;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -65,7 +81,9 @@
       cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:identifier] autorelease];
    }
    
-   NSArray *sessions = [_data objectForKey:kTrackSessions];
+   NSArray *days = [_data objectForKey:kTrackDays];
+   NSDictionary *day = [days objectAtIndex:[indexPath section]];
+   NSArray *sessions = [day objectForKey:kDaysSessions];
    NSDictionary *session = [sessions objectAtIndex:[indexPath row]];
    [[cell textLabel] setText:[session objectForKey:kSessionTitle]];
    [[cell detailTextLabel] setText:[session objectForKey:kSessionTimeSlot]];
@@ -75,7 +93,9 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-   NSArray *sessions = [_data objectForKey:kTrackSessions];
+   NSArray *days = [_data objectForKey:kTrackDays];
+   NSDictionary *day = [days objectAtIndex:[indexPath section]];
+   NSArray *sessions = [day objectForKey:kDaysSessions];
    NSDictionary *session = [sessions objectAtIndex:[indexPath row]];
    [_contentController setData:session];
    
