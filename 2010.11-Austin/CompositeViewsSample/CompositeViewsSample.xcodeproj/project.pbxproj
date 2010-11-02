@@ -32,6 +32,7 @@
 		68C7C3D11280654000ADEA11 /* TrackScheduleSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C7C3D01280654000ADEA11 /* TrackScheduleSessionViewController.m */; };
 		68C7C3D31280793B00ADEA11 /* TrackScheduleSessionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C7C3D21280793B00ADEA11 /* TrackScheduleSessionView.xib */; };
 		68C7C44E1280837C00ADEA11 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C7C44D1280837C00ADEA11 /* Constants.m */; };
+		68C7C4A91280876400ADEA11 /* austin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 68C7C4A81280876400ADEA11 /* austin.jpg */; };
 		68C8D4AB127F5EAE000AE7DD /* TrackScheduleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C8D4AA127F5EAE000AE7DD /* TrackScheduleView.xib */; };
 		68C8D4CD127F62B0000AE7DD /* FullScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C8D4CC127F62B0000AE7DD /* FullScheduleViewController.m */; };
 		68C8D4CF127F63CC000AE7DD /* schedule.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 68C8D4CE127F63CC000AE7DD /* schedule.pdf */; };
@@ -96,6 +97,7 @@
 		68C7C3D21280793B00ADEA11 /* TrackScheduleSessionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackScheduleSessionView.xib; sourceTree = "<group>"; };
 		68C7C44C1280837C00ADEA11 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		68C7C44D1280837C00ADEA11 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		68C7C4A81280876400ADEA11 /* austin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = austin.jpg; sourceTree = "<group>"; };
 		68C8D4AA127F5EAE000AE7DD /* TrackScheduleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackScheduleView.xib; sourceTree = "<group>"; };
 		68C8D4CB127F62B0000AE7DD /* FullScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullScheduleViewController.h; sourceTree = "<group>"; };
 		68C8D4CC127F62B0000AE7DD /* FullScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullScheduleViewController.m; sourceTree = "<group>"; };
@@ -300,6 +302,7 @@
 				68EDB24512766732009190F7 /* juliobarros1.png */,
 				68EDB16512766028009190F7 /* Kirbyturner.png */,
 				68EDB26412766FFB009190F7 /* speaker-background.png */,
+				68C7C4A81280876400ADEA11 /* austin.jpg */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 				68C7C3431280597F00ADEA11 /* scheduleHandsOn.plist in Resources */,
 				68C7C34912805EA400ADEA11 /* TrackScheduleTimeSlotsView.xib in Resources */,
 				68C7C3D31280793B00ADEA11 /* TrackScheduleSessionView.xib in Resources */,
+				68C7C4A91280876400ADEA11 /* austin.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
