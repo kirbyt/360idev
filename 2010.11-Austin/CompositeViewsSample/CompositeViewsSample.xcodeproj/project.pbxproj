@@ -31,7 +31,7 @@
 		68C7C34912805EA400ADEA11 /* TrackScheduleTimeSlotsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C7C34812805EA400ADEA11 /* TrackScheduleTimeSlotsView.xib */; };
 		68C7C3D11280654000ADEA11 /* TrackScheduleSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C7C3D01280654000ADEA11 /* TrackScheduleSessionViewController.m */; };
 		68C7C3D31280793B00ADEA11 /* TrackScheduleSessionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C7C3D21280793B00ADEA11 /* TrackScheduleSessionView.xib */; };
-		68C8D4AB127F5EAE000AE7DD /* ScheduleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C8D4AA127F5EAE000AE7DD /* ScheduleView.xib */; };
+		68C8D4AB127F5EAE000AE7DD /* TrackScheduleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C8D4AA127F5EAE000AE7DD /* TrackScheduleView.xib */; };
 		68C8D4CD127F62B0000AE7DD /* FullScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C8D4CC127F62B0000AE7DD /* FullScheduleViewController.m */; };
 		68C8D4CF127F63CC000AE7DD /* schedule.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 68C8D4CE127F63CC000AE7DD /* schedule.pdf */; };
 		68C8D4D1127F63E2000AE7DD /* FullScheduleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C8D4D0127F63E2000AE7DD /* FullScheduleView.xib */; };
@@ -93,7 +93,7 @@
 		68C7C3CF1280654000ADEA11 /* TrackScheduleSessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackScheduleSessionViewController.h; sourceTree = "<group>"; };
 		68C7C3D01280654000ADEA11 /* TrackScheduleSessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackScheduleSessionViewController.m; sourceTree = "<group>"; };
 		68C7C3D21280793B00ADEA11 /* TrackScheduleSessionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackScheduleSessionView.xib; sourceTree = "<group>"; };
-		68C8D4AA127F5EAE000AE7DD /* ScheduleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleView.xib; sourceTree = "<group>"; };
+		68C8D4AA127F5EAE000AE7DD /* TrackScheduleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackScheduleView.xib; sourceTree = "<group>"; };
 		68C8D4CB127F62B0000AE7DD /* FullScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullScheduleViewController.h; sourceTree = "<group>"; };
 		68C8D4CC127F62B0000AE7DD /* FullScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullScheduleViewController.m; sourceTree = "<group>"; };
 		68C8D4CE127F63CC000AE7DD /* schedule.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = schedule.pdf; sourceTree = "<group>"; };
@@ -250,7 +250,7 @@
 				68EDB14E12765CDA009190F7 /* SpeakerView.xib */,
 				6816E60F127EFAF700E478BF /* TweetsView.xib */,
 				68C8D4D0127F63E2000AE7DD /* FullScheduleView.xib */,
-				68C8D4AA127F5EAE000AE7DD /* ScheduleView.xib */,
+				68C8D4AA127F5EAE000AE7DD /* TrackScheduleView.xib */,
 				68C7C34812805EA400ADEA11 /* TrackScheduleTimeSlotsView.xib */,
 				68C7C3D21280793B00ADEA11 /* TrackScheduleSessionView.xib */,
 			);
@@ -358,7 +358,7 @@
 				68EDB26512766FFB009190F7 /* speaker-background.png in Resources */,
 				6816E610127EFAF700E478BF /* TweetsView.xib in Resources */,
 				6816E821127F3DDE00E478BF /* Placeholder.png in Resources */,
-				68C8D4AB127F5EAE000AE7DD /* ScheduleView.xib in Resources */,
+				68C8D4AB127F5EAE000AE7DD /* TrackScheduleView.xib in Resources */,
 				68C8D4CF127F63CC000AE7DD /* schedule.pdf in Resources */,
 				68C8D4D1127F63E2000AE7DD /* FullScheduleView.xib in Resources */,
 				68C7C3431280597F00ADEA11 /* scheduleHandsOn.plist in Resources */,

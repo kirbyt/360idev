@@ -32,7 +32,7 @@
 
 - (id)init
 {
-   self = [super initWithNibName:@"ScheduleView" bundle:nil];
+   self = [super initWithNibName:@"TrackScheduleView" bundle:nil];
    if (self) {
       
    }
