@@ -12,12 +12,14 @@
 @interface TrackScheduleTimeSlotsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 {
    UITableView *_tableView;
-   NSArray *_data;
+   UINavigationBar *_navBar;
+   NSDictionary *_data;
 }
 
 @property (nonatomic, retain) IBOutlet UITableView *tableView;
+@property (nonatomic, retain) IBOutlet UINavigationBar *navBar;
 
 
-- (void)setData:(NSArray *)data;
+- (void)setData:(NSDictionary *)data;
 
 @end

@@ -12,10 +12,12 @@
 @implementation TrackScheduleTimeSlotsViewController
 
 @synthesize tableView = _tableView;
+@synthesize navBar = _navBar;
 
 - (void)dealloc
 {
    [_tableView release], _tableView = nil;
+   [_navBar release], _navBar = nil;
    [_data release], _data = nil;
    
    [super dealloc];
@@ -26,11 +28,20 @@
    [super viewDidUnload];
    
    [self setTableView:nil];
+   [self setNavBar:nil];
 }
 
-- (void)setData:(NSArray *)data
+- (void)setData:(NSDictionary *)data
 {
    _data = [data retain];
+
+   // Set title.
+   id item = [[_navBar items] objectAtIndex:0];
+   if ([item isKindOfClass:[UINavigationItem class]]) {
+      NSString *trackTitle = [_data objectForKey:@"trackTitle"];
+      [item setTitle:trackTitle];
+   }
+   
    [_tableView reloadData];
 }
 
@@ -51,7 +62,8 @@
       cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:identifier] autorelease];
    }
    
-   NSDictionary *session = [_data objectAtIndex:[indexPath row]];
+   NSArray *sessions = [_data objectForKey:@"sessions"];
+   NSDictionary *session = [sessions objectAtIndex:[indexPath row]];
    [[cell textLabel] setText:[session objectForKey:@"title"]];
    [[cell detailTextLabel] setText:[session objectForKey:@"timeSlot"]];
 

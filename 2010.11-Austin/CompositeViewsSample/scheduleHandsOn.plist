@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<array>
+<dict>
+   <key>trackTitle</key>
+   <string>Hands-On</string>
+   <key>sessions</key>
+   <array>
 	<dict>
 		<key>timeSlot</key>
 		<string>9:00a - 12:00p</string>
@@ -54,7 +58,8 @@
 		<key>timeSlot</key>
 		<string>1:00p - 5:00p</string>
 		<key>speaker</key>
-		<string>Saul MoraSaul Mora</string>
+		<string>Saul Mora
+Saul Mora</string>
 		<key>title</key>
 		<string>Workshop: Unit Testing that doesn&apos;t Suck, the Workshop</string>
 		<key>level</key>
@@ -98,5 +103,6 @@
 		<key>description</key>
 		<string></string>
 	</dict>
-</array>
+   </array>
+</dict>
 </plist>
