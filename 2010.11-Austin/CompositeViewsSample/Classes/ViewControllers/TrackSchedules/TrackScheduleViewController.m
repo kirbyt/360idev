@@ -9,6 +9,7 @@
 #import "TrackScheduleViewController.h"
 #import "UIViewController+KTCompositeView.h"
 #import "TrackScheduleTimeSlotsViewController.h"
+#import "TrackScheduleSessionViewController.h"
 
 
 @implementation TrackScheduleViewController

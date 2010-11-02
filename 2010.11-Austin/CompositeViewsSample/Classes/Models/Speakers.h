@@ -8,14 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-extern NSString * const kSpeakerImage;
-extern NSString * const kSpeakerBio;
 
 @interface Speakers : NSObject 
 {
-
+   NSArray *_speakers;
 }
 
 - (NSArray *)speakers;
+- (NSDictionary *)speakerNamed:(NSString *)speakerName;
 
 @end

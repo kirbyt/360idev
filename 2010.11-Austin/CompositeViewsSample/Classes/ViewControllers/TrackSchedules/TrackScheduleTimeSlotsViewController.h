@@ -8,16 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
+@class TrackScheduleSessionViewController;
 
 @interface TrackScheduleTimeSlotsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 {
    UITableView *_tableView;
    UINavigationBar *_navBar;
    NSDictionary *_data;
+   TrackScheduleSessionViewController *_contentController;
 }
 
 @property (nonatomic, retain) IBOutlet UITableView *tableView;
 @property (nonatomic, retain) IBOutlet UINavigationBar *navBar;
+@property (nonatomic, assign) IBOutlet TrackScheduleSessionViewController *contentController;
 
 
 - (void)setData:(NSDictionary *)data;

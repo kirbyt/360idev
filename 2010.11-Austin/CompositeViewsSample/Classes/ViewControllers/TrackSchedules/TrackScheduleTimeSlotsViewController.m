@@ -7,12 +7,14 @@
 //
 
 #import "TrackScheduleTimeSlotsViewController.h"
+#import "TrackScheduleSessionViewController.h"
 
 
 @implementation TrackScheduleTimeSlotsViewController
 
 @synthesize tableView = _tableView;
 @synthesize navBar = _navBar;
+@synthesize contentController = _contentController;
 
 - (void)dealloc
 {
@@ -38,7 +40,7 @@
    // Set title.
    id item = [[_navBar items] objectAtIndex:0];
    if ([item isKindOfClass:[UINavigationItem class]]) {
-      NSString *trackTitle = [_data objectForKey:@"trackTitle"];
+      NSString *trackTitle = [_data objectForKey:kTrackTitle];
       [item setTitle:trackTitle];
    }
    
@@ -51,7 +53,7 @@
 
 - (NSInteger)tableView:(UITableView *)table numberOfRowsInSection:(NSInteger)section
 {
-   NSArray *sessions = [_data objectForKey:@"sessions"];
+   NSArray *sessions = [_data objectForKey:kTrackSessions];
    return [sessions count];
 }
 
@@ -63,16 +65,20 @@
       cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:identifier] autorelease];
    }
    
-   NSArray *sessions = [_data objectForKey:@"sessions"];
+   NSArray *sessions = [_data objectForKey:kTrackSessions];
    NSDictionary *session = [sessions objectAtIndex:[indexPath row]];
-   [[cell textLabel] setText:[session objectForKey:@"title"]];
-   [[cell detailTextLabel] setText:[session objectForKey:@"timeSlot"]];
+   [[cell textLabel] setText:[session objectForKey:kSessionTitle]];
+   [[cell detailTextLabel] setText:[session objectForKey:kSessionTimeSlot]];
 
    return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+   NSArray *sessions = [_data objectForKey:kTrackSessions];
+   NSDictionary *session = [sessions objectAtIndex:[indexPath row]];
+   [_contentController setData:session];
+   
    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 

@@ -8,16 +8,33 @@
 
 #import "Speakers.h"
 
-NSString * const kSpeakerImage = @"image";
-NSString * const kSpeakerBio = @"bio";
 
 @implementation Speakers
 
+- (void)dealloc
+{
+   [_speakers release], _speakers = nil;
+   [super dealloc];
+}
+
 - (NSArray *)speakers
 {
+   if (_speakers) {
+      return _speakers;
+   }
+   
    NSString *path = [[NSBundle mainBundle] pathForResource:@"speakers" ofType:@"plist"];
-   NSArray *speakers = [NSArray arrayWithContentsOfFile:path];
-   return speakers;
+   _speakers = [[NSArray alloc] initWithContentsOfFile:path];
+   return _speakers;
+}
+
+- (NSDictionary *)speakerNamed:(NSString *)speakerName
+{
+   NSDictionary *speaker = nil;
+   if ([[self speakers] count] > 0) {
+      speaker = [_speakers objectAtIndex:0];
+   }
+   return speaker;
 }
 
 @end
