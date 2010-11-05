@@ -25,4 +25,5 @@
 @protocol SimpleTwitterClientDelegate <NSObject>
 @optional
 - (void)simpleTwitterClient:(SimpleTwitterClient *)client didFinishRetrievingTweets:(NSArray *)tweets;
+- (void)simpleTwitterClient:(SimpleTwitterClient *)client didFailWithError:(NSError *)error;
 @end

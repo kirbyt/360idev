@@ -18,7 +18,6 @@
 @synthesize placeholderContent = _placeholderContent;
 @synthesize placeholderAppNavigation = _placeholderAppNavigation;
 @synthesize placeholderSpeaker = _placeholderSpeaker;
-@synthesize contentViewController = _contentViewController;
 @synthesize appNavigationViewController = _appNavigationViewController;
 @synthesize speakerViewController = _speakerViewController;
 
@@ -27,7 +26,6 @@
    [_placeholderContent release], _placeholderContent = nil;
    [_placeholderAppNavigation release], _placeholderAppNavigation = nil;
    [_placeholderSpeaker release], _placeholderSpeaker = nil;
-   [_contentViewController release], _contentViewController = nil;
    [_appNavigationViewController release], _appNavigationViewController = nil;
    [_speakerViewController release], _speakerViewController = nil;
    
@@ -63,7 +61,6 @@
 {
    [super viewDidLoad];
    
-   [self addSubview:[_contentViewController view] toPlaceholder:_placeholderContent];
    [self addSubview:[_appNavigationViewController view] toPlaceholder:_placeholderAppNavigation];
    [self addSubview:[_speakerViewController view] toPlaceholder:_placeholderSpeaker];
 }
@@ -72,7 +69,6 @@
 {
    [super viewDidUnload];
 
-   [self setContentViewController:nil];
    [self setAppNavigationViewController:nil];
    [self setSpeakerViewController:nil];
    [self setPlaceholderContent:nil];

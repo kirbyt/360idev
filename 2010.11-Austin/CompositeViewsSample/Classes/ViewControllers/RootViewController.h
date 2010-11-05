@@ -32,7 +32,6 @@ enum Schedule {
 @property (nonatomic, retain) IBOutlet UIView *placeholderContent;
 @property (nonatomic, retain) IBOutlet UIView *placeholderAppNavigation;
 @property (nonatomic, retain) IBOutlet UIView *placeholderSpeaker;
-@property (nonatomic, retain) IBOutlet UIViewController *contentViewController;
 @property (nonatomic, retain) IBOutlet UIViewController *appNavigationViewController;
 @property (nonatomic, retain) IBOutlet UIViewController *speakerViewController;
 

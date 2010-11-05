@@ -26,14 +26,20 @@
    // Remember: This is sample code. I normally would not make a synchronous web serivce call.
    NSData *responseData = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
 
-   NSString *responseString = [NSString stringWithUTF8String:[responseData bytes]];
-   SBJsonParser *parser = [[SBJsonParser alloc] init];
-   NSDictionary *data = [parser objectWithString:responseString];
-   NSArray *tweets = [data objectForKey:@"results"];
-   [parser release];
-
-   if (_delegate && [_delegate respondsToSelector:@selector(simpleTwitterClient:didFinishRetrievingTweets:)]) {
-      [_delegate simpleTwitterClient:self didFinishRetrievingTweets:tweets];
+   if (!error) {
+      NSString *responseString = [NSString stringWithUTF8String:[responseData bytes]];
+      SBJsonParser *parser = [[SBJsonParser alloc] init];
+      NSDictionary *data = [parser objectWithString:responseString];
+      NSArray *tweets = [data objectForKey:@"results"];
+      [parser release];
+      
+      if (_delegate && [_delegate respondsToSelector:@selector(simpleTwitterClient:didFinishRetrievingTweets:)]) {
+         [_delegate simpleTwitterClient:self didFinishRetrievingTweets:tweets];
+      }
+   } else {
+      if (_delegate && [_delegate respondsToSelector:@selector(simpleTwitterClient:didFailWithError:)]) {
+         [_delegate simpleTwitterClient:self didFailWithError:error];
+      }
    }
 }
 
