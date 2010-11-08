@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="12"/>
+			<integer value="2"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -56,7 +56,7 @@
 				<bool key="IBUIHorizontal">NO</bool>
 			</object>
 			<object class="IBUIView" id="18047289">
-				<nil key="NSNextResponder"/>
+				<reference key="NSNextResponder"/>
 				<int key="NSvFlags">274</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
@@ -84,6 +84,7 @@
 					</object>
 				</object>
 				<string key="NSFrameSize">{478, 501}</string>
+				<reference key="NSSuperview"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
 					<bytes key="NSWhite">MQA</bytes>
@@ -177,11 +178,13 @@
 						<int key="objectID">4</int>
 						<reference key="object" ref="926547304"/>
 						<reference key="parent" ref="18047289"/>
+						<string key="objectName">Navigation View</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">5</int>
 						<reference key="object" ref="1013601791"/>
 						<reference key="parent" ref="18047289"/>
+						<string key="objectName">Content View</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">10</int>
@@ -224,7 +227,7 @@
 					<string>TrackScheduleSessionViewController</string>
 					<string>{{66, 342}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>{{309, 337}, {478, 501}}</string>
+					<string>{{617, 271}, {478, 501}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<boolean value="YES"/>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -276,11 +279,15 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>speakerBio</string>
+							<string>speakerIcon</string>
 							<string>timeLabel</string>
 							<string>titleLabel</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>UIWebView</string>
+							<string>UIImageView</string>
 							<string>UILabel</string>
 							<string>UILabel</string>
 						</object>
@@ -289,11 +296,21 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>speakerBio</string>
+							<string>speakerIcon</string>
 							<string>timeLabel</string>
 							<string>titleLabel</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBToOneOutletInfo">
+								<string key="name">speakerBio</string>
+								<string key="candidateClassName">UIWebView</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">speakerIcon</string>
+								<string key="candidateClassName">UIImageView</string>
+							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">timeLabel</string>
 								<string key="candidateClassName">UILabel</string>
@@ -416,6 +433,13 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBUserSource</string>
 						<string key="minorKey"/>
+					</object>
+				</object>
+				<object class="IBPartialClassDescription">
+					<string key="className">UIImageView</string>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">Classes/Categories/UIImageView+KTImageDownload.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">
