@@ -1,0 +1,244 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		680FEC9A141FCA23006E847B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680FEC99141FCA23006E847B /* Foundation.framework */; };
+		680FECAA141FCA36006E847B /* NSString+AwesomeAppKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 680FECA6141FCA36006E847B /* NSString+AwesomeAppKit.h */; };
+		680FECAB141FCA36006E847B /* NSString+AwesomeAppKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 680FECA7141FCA36006E847B /* NSString+AwesomeAppKit.m */; };
+		680FECAC141FCA36006E847B /* SampleModelObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 680FECA8141FCA36006E847B /* SampleModelObject.h */; };
+		680FECAD141FCA36006E847B /* SampleModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 680FECA9141FCA36006E847B /* SampleModelObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		680FEC96141FCA23006E847B /* libWPSharedCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWPSharedCode.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		680FEC99141FCA23006E847B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		680FEC9D141FCA23006E847B /* WPSharedCode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WPSharedCode-Prefix.pch"; sourceTree = "<group>"; };
+		680FECA6141FCA36006E847B /* NSString+AwesomeAppKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AwesomeAppKit.h"; sourceTree = "<group>"; };
+		680FECA7141FCA36006E847B /* NSString+AwesomeAppKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AwesomeAppKit.m"; sourceTree = "<group>"; };
+		680FECA8141FCA36006E847B /* SampleModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleModelObject.h; sourceTree = "<group>"; };
+		680FECA9141FCA36006E847B /* SampleModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleModelObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		680FEC93141FCA23006E847B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680FEC9A141FCA23006E847B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		680FEC8B141FCA23006E847B = {
+			isa = PBXGroup;
+			children = (
+				680FEC9B141FCA23006E847B /* WPSharedCode */,
+				680FEC98141FCA23006E847B /* Frameworks */,
+				680FEC97141FCA23006E847B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		680FEC97141FCA23006E847B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				680FEC96141FCA23006E847B /* libWPSharedCode.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		680FEC98141FCA23006E847B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				680FEC99141FCA23006E847B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		680FEC9B141FCA23006E847B /* WPSharedCode */ = {
+			isa = PBXGroup;
+			children = (
+				680FECA6141FCA36006E847B /* NSString+AwesomeAppKit.h */,
+				680FECA7141FCA36006E847B /* NSString+AwesomeAppKit.m */,
+				680FECA8141FCA36006E847B /* SampleModelObject.h */,
+				680FECA9141FCA36006E847B /* SampleModelObject.m */,
+				680FEC9C141FCA23006E847B /* Supporting Files */,
+			);
+			path = WPSharedCode;
+			sourceTree = "<group>";
+		};
+		680FEC9C141FCA23006E847B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				680FEC9D141FCA23006E847B /* WPSharedCode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		680FEC94141FCA23006E847B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680FECAA141FCA36006E847B /* NSString+AwesomeAppKit.h in Headers */,
+				680FECAC141FCA36006E847B /* SampleModelObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		680FEC95141FCA23006E847B /* WPSharedCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 680FECA3141FCA23006E847B /* Build configuration list for PBXNativeTarget "WPSharedCode" */;
+			buildPhases = (
+				680FEC92141FCA23006E847B /* Sources */,
+				680FEC93141FCA23006E847B /* Frameworks */,
+				680FEC94141FCA23006E847B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPSharedCode;
+			productName = WPSharedCode;
+			productReference = 680FEC96141FCA23006E847B /* libWPSharedCode.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		680FEC8D141FCA23006E847B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "White Peak Software Inc.";
+			};
+			buildConfigurationList = 680FEC90141FCA23006E847B /* Build configuration list for PBXProject "WPSharedCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 680FEC8B141FCA23006E847B;
+			productRefGroup = 680FEC97141FCA23006E847B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				680FEC95141FCA23006E847B /* WPSharedCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		680FEC92141FCA23006E847B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680FECAB141FCA36006E847B /* NSString+AwesomeAppKit.m in Sources */,
+				680FECAD141FCA36006E847B /* SampleModelObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		680FECA1141FCA23006E847B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		680FECA2141FCA23006E847B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		680FECA4141FCA23006E847B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/WPSharedCode.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WPSharedCode/WPSharedCode-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		680FECA5141FCA23006E847B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/WPSharedCode.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WPSharedCode/WPSharedCode-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		680FEC90141FCA23006E847B /* Build configuration list for PBXProject "WPSharedCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680FECA1141FCA23006E847B /* Debug */,
+				680FECA2141FCA23006E847B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		680FECA3141FCA23006E847B /* Build configuration list for PBXNativeTarget "WPSharedCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				680FECA4141FCA23006E847B /* Debug */,
+				680FECA5141FCA23006E847B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 680FEC8D141FCA23006E847B /* Project object */;
+}

@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68D36581141EB0DC00BD4768 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68D36580141EB0DC00BD4768 /* Cocoa.framework */; };
+		68D3658B141EB0DC00BD4768 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68D36589141EB0DC00BD4768 /* InfoPlist.strings */; };
+		68D3658D141EB0DC00BD4768 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D3658C141EB0DC00BD4768 /* main.m */; };
+		68D36591141EB0DC00BD4768 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 68D3658F141EB0DC00BD4768 /* Credits.rtf */; };
+		68D36594141EB0DC00BD4768 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D36593141EB0DC00BD4768 /* AppDelegate.m */; };
+		68D36597141EB0DC00BD4768 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68D36595141EB0DC00BD4768 /* MainMenu.xib */; };
+		68D3659A141EB0DC00BD4768 /* Awesome_Mac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68D36598141EB0DC00BD4768 /* Awesome_Mac.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68D3657C141EB0DC00BD4768 /* Awesome-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Awesome-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D36580141EB0DC00BD4768 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		68D36583141EB0DC00BD4768 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		68D36584141EB0DC00BD4768 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		68D36585141EB0DC00BD4768 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68D36588141EB0DC00BD4768 /* Awesome-Mac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Awesome-Mac-Info.plist"; sourceTree = "<group>"; };
+		68D3658A141EB0DC00BD4768 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68D3658C141EB0DC00BD4768 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68D3658E141EB0DC00BD4768 /* Awesome-Mac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Awesome-Mac-Prefix.pch"; sourceTree = "<group>"; };
+		68D36590141EB0DC00BD4768 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		68D36592141EB0DC00BD4768 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68D36593141EB0DC00BD4768 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68D36596141EB0DC00BD4768 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		68D36599141EB0DC00BD4768 /* Awesome_Mac.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Awesome_Mac.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68D36579141EB0DC00BD4768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D36581141EB0DC00BD4768 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68D36571141EB0DB00BD4768 = {
+			isa = PBXGroup;
+			children = (
+				68D36586141EB0DC00BD4768 /* Awesome-Mac */,
+				68D3657F141EB0DC00BD4768 /* Frameworks */,
+				68D3657D141EB0DC00BD4768 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68D3657D141EB0DC00BD4768 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68D3657C141EB0DC00BD4768 /* Awesome-Mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68D3657F141EB0DC00BD4768 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68D36580141EB0DC00BD4768 /* Cocoa.framework */,
+				68D36582141EB0DC00BD4768 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68D36582141EB0DC00BD4768 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68D36583141EB0DC00BD4768 /* AppKit.framework */,
+				68D36584141EB0DC00BD4768 /* CoreData.framework */,
+				68D36585141EB0DC00BD4768 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		68D36586141EB0DC00BD4768 /* Awesome-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				68D36592141EB0DC00BD4768 /* AppDelegate.h */,
+				68D36593141EB0DC00BD4768 /* AppDelegate.m */,
+				68D36595141EB0DC00BD4768 /* MainMenu.xib */,
+				68D36598141EB0DC00BD4768 /* Awesome_Mac.xcdatamodeld */,
+				68D36587141EB0DC00BD4768 /* Supporting Files */,
+			);
+			path = "Awesome-Mac";
+			sourceTree = "<group>";
+		};
+		68D36587141EB0DC00BD4768 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68D36588141EB0DC00BD4768 /* Awesome-Mac-Info.plist */,
+				68D36589141EB0DC00BD4768 /* InfoPlist.strings */,
+				68D3658C141EB0DC00BD4768 /* main.m */,
+				68D3658E141EB0DC00BD4768 /* Awesome-Mac-Prefix.pch */,
+				68D3658F141EB0DC00BD4768 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68D3657B141EB0DC00BD4768 /* Awesome-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68D3659D141EB0DC00BD4768 /* Build configuration list for PBXNativeTarget "Awesome-Mac" */;
+			buildPhases = (
+				68D36578141EB0DC00BD4768 /* Sources */,
+				68D36579141EB0DC00BD4768 /* Frameworks */,
+				68D3657A141EB0DC00BD4768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Awesome-Mac";
+			productName = "Awesome-Mac";
+			productReference = 68D3657C141EB0DC00BD4768 /* Awesome-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68D36573141EB0DB00BD4768 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "White Peak Software Inc.";
+			};
+			buildConfigurationList = 68D36576141EB0DB00BD4768 /* Build configuration list for PBXProject "Awesome-Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68D36571141EB0DB00BD4768;
+			productRefGroup = 68D3657D141EB0DC00BD4768 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68D3657B141EB0DC00BD4768 /* Awesome-Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68D3657A141EB0DC00BD4768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D3658B141EB0DC00BD4768 /* InfoPlist.strings in Resources */,
+				68D36591141EB0DC00BD4768 /* Credits.rtf in Resources */,
+				68D36597141EB0DC00BD4768 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68D36578141EB0DC00BD4768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D3658D141EB0DC00BD4768 /* main.m in Sources */,
+				68D36594141EB0DC00BD4768 /* AppDelegate.m in Sources */,
+				68D3659A141EB0DC00BD4768 /* Awesome_Mac.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68D36589141EB0DC00BD4768 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68D3658A141EB0DC00BD4768 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		68D3658F141EB0DC00BD4768 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68D36590141EB0DC00BD4768 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		68D36595141EB0DC00BD4768 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68D36596141EB0DC00BD4768 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68D3659B141EB0DC00BD4768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		68D3659C141EB0DC00BD4768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		68D3659E141EB0DC00BD4768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Awesome-Mac/Awesome-Mac-Prefix.pch";
+				INFOPLIST_FILE = "Awesome-Mac/Awesome-Mac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		68D3659F141EB0DC00BD4768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Awesome-Mac/Awesome-Mac-Prefix.pch";
+				INFOPLIST_FILE = "Awesome-Mac/Awesome-Mac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68D36576141EB0DB00BD4768 /* Build configuration list for PBXProject "Awesome-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68D3659B141EB0DC00BD4768 /* Debug */,
+				68D3659C141EB0DC00BD4768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68D3659D141EB0DC00BD4768 /* Build configuration list for PBXNativeTarget "Awesome-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68D3659E141EB0DC00BD4768 /* Debug */,
+				68D3659F141EB0DC00BD4768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		68D36598141EB0DC00BD4768 /* Awesome_Mac.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				68D36599141EB0DC00BD4768 /* Awesome_Mac.xcdatamodel */,
+			);
+			currentVersion = 68D36599141EB0DC00BD4768 /* Awesome_Mac.xcdatamodel */;
+			path = Awesome_Mac.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 68D36573141EB0DB00BD4768 /* Project object */;
+}
